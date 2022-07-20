@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@100;200;300&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   font-family: 'Lato', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+
+
+
+.navbar{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+/* background-color: transparent;  */
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.5rem;
+ letter-spacing: 1.3px;
+}
+
+.navbar ul li a{
+  color: white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+/* .navbar ul li a.changeTextColor{
+  color: rgb(105, 95, 95);
+} */
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+
+/* for javascript scroll*/
+.changeColor{
+    background-color:  rgba(0, 0, 0, 0.5);
+  }
+/* for javascript scroll*/
+
+
+
+/* hero page */
+.hero-banner{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.;
+    width: 100%;
+    padding-top: 40rem;
+    padding-bottom: 15rem;
+}
+
+
+
+/* .welcome-message{
+   padding-top: 35rem;
+} */
+
+.hero-banner h1 {
+  font-size:4.25rem;
+  padding-top: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  letter-spacing: 3px;
+}
+
+
+
+#title-p{
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+}
+
+
+#btn{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+}
+
+#btn:hover{
+    filter: brightness(80%);
+}
+
+/* .hero-banner .btn:before {
+    content: "";
+    background: #D71619;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.hero-banner .btn:hover:before {
+    width: 100%;
+} */
+/* end-hero banner */
+
+
+hr{
+    width: 10%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.firstContent{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+}
+
+#box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+ }
+
+#card {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 20rem;
+    max-height: 33rem;
+    margin: auto
+}
+
+#card:hover{
+  filter: brightness(80%)
+}
+
+#btnClasses{
+    background-color: #D71619;
+    color: white;
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+    border: none;
+}
+
+#btnClasses:hover{
+  filter:brightness(80%)
+}
+
+/* footer */
+footer{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+ letter-spacing: 1.3px;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+}
+
+#footerLinks{
+    color: white;
+  }
+  #footerLinks:hover{
+    filter: brightness(80%);
+  }
+
+  .subscribe-btn{
+    background-color: #D71619;
+    padding: .5rem 2rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .subscribe-btn:hover{
+    filter: brightness(80%);
+  }
