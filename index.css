@@ -172,6 +172,11 @@ hr{
     padding-bottom: 10rem;
 }
 
+
+.title{
+  font-family: 'Roboto Slab', serif;
+}
+
 .subtitle{
     font-size: 1.2rem;
 }
@@ -213,6 +218,28 @@ hr{
   filter:brightness(80%)
 }
 
+
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#blogCard{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 40rem;
+    max-height: 35rem;
+    margin: auto
+}
+
+
+
+
+
 /* footer */
 footer{
     font-family: 'Bebas Neue', cursive;
@@ -234,6 +261,7 @@ footer{
     padding: .5rem 2rem;
     color: white;
     font-family: 'Lato', sans-serif;
+    border: none;
   }
 
   .subscribe-btn:hover{
