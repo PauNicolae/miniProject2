@@ -8,14 +8,9 @@ window.addEventListener('scroll', function () {
    if (currentScroll >= 1100) {
       navbarEl.classList.add('changeColor');
       console.log(currentScroll)
-    //   for (let i = 0; i <= linkEl.length; i++) {
-    //      linkEl[i].classList.add('changeTextColor');
-    //   }
-      // linkEl.classList.add('changeTextColor');
+   
    } else if (currentScroll < 1100) {
       navbarEl.classList.remove('changeColor');
-    //   for (let i = 0; i <= linkEl.length; i++) {
-    //     linkEl[i].classList.remove('changeTextColor');
-    //  }
+  
    }
 });

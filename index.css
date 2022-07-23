@@ -11,20 +11,19 @@
 }
 
 /* navbar */
-.navbar-brand h4{
+.navbar-brand h2{
     font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
 }
-
-
-
 
 .navbar{
     /* background-color: rgba(0, 0, 0, 0.5); */
-/* background-color: transparent;  */
+ background-color: transparent; 
  font-family: 'Bebas Neue', cursive;
- font-size: 1.5rem;
+ font-size: 1.2rem;
  letter-spacing: 1.3px;
+ width: 90%;
+ margin: auto;
 }
 
 .navbar ul li a{
@@ -236,7 +235,19 @@ hr{
     margin: auto
 }
 
+.aBlog{
+  color: black;
+  text-decoration: none;
+}
 
+.aBlog:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.pTitle:hover{
+  color:#D71619;
+}
 
 
 
