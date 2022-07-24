@@ -24,14 +24,16 @@ const fetchData = async () => {
    const response = await fetch(url);
    data = await response.json();
    displayData(data.results);
-   //    console.log(data);
+      console.log(data);
 };
 
 const displayData = (exercises) => {
    const htmlString = exercises.map((item) => {
-      return `<h1 style="color: red">${item.name}</h1>
-     <h2>${item.category.name}</h2>
-     <h2>${item.description}</h2>`;
+      return `<h2 style="color: red">${item.name}</h2>
+     <h3>${item.category.name}</h3>
+     <p>${item.description}</p>
+     `;
+     
    });
    subContainer.innerHTML = htmlString;
 };
