@@ -9,7 +9,7 @@
          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
          crossorigin="anonymous"
       />
-      <link rel="stylesheet" href="index.css" />
+      <link rel="stylesheet" href="blog.css" />
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,6 +25,12 @@
       />
 
       <title>Mini Project 2</title>
+
+      <style>
+         p:nth-child(odd) {
+            font-weight: 600;
+         }
+      </style>
    </head>
    <body id="body">
       <header>
@@ -33,20 +39,12 @@
          <nav class="navbar navbar-expand-lg fixed-top shadow-none">
             <div class="container">
                <a href="index.html" class="navbar-brand text-light"
-                  ><h4 class="mt-2">NO LIMIT</h4></a
+                  ><h2 class="mt-2">
+                     <sub><em>NO</em></sub
+                     ><sup><em>LIMIT</em></sup>
+                  </h2></a
                >
-               <!-- <input
-                  type="text"
-                  placeholder="Search.."
-                  class="searchTab border-light"
-               />
-               <button
-                  class="btn border-none shadow-none"
-                  type="button"
-                  id="magnifyingGlass"
-               >
-                  <i class="fa fa-search"></i>
-               </button> -->
+
                <button
                   class="navbar-toggler text-light"
                   type="button"
@@ -117,94 +115,65 @@
                </div>
             </div>
          </nav>
-
-         
-         <!-- Hero Banner Section -->
-         <section
-            class="hero-banner col-sm col-md col-xl col-xxl"
-            id="hero-banner"
-         >
-            <div class="container">
-               <div class="row row align-items-center">
-                  <div
-                     class="welcome-message col-xs-6 col-sm col-md-10 col-lg-8"
-                  >
-                     <h1 class="text-light" id="title-h1">
-                        <strong> THERE IS NO LIMIT</strong>
-                     </h1>
-                     <p class="lead text-light" id="title-p">
-                        <strong>
-                           You're capable of more than you realize.</strong
-                        >
-                     </p>
-                     <a href="signUp.html" class="btn btn-lg" id="btn"
-                        ><strong>JOIN NOW</strong></a
-                     >
-                  </div>
-               </div>
-            </div>
-         </section>
       </header>
-      <!-- end of banner-section -->
 
-      <section class="firstContent text-center text-dark">
-         <h1 class="mb-5">WE HAVE WHAT YOU NEED</h1>
-         <hr />
-         <p class="subtitle mt-5 pb-5">
-            Whether you’re just starting out or an old hand, you’ll find what
-            you need for your fitness journey.
-         </p>
-
-         <div class="container mt-5" id="box">
-            <div class="row">
-               <div
-               class="col-xs col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl"
-            >
-               <div class="card shadow mb-3" id="card">
-                  <a href="coaches.html"
-                     ><img
-                        src="./photos/38bacd_d9731ec647dd4094b06f6b6b4469c9db_mv2.jpg"
-                        height="400px"
-                        width="100%"
-                        alt=""
-                        class="img-fluid"
-                        id="img"
-                  /></a>
-                  <a href="coaches.html" id="btnClasses"><p class="text mt-2" >RESULT-DRIVEN CLASSES</p></a>
-               </div>
+      <section class="text-dark p-5 text-center">
+         <div class="container">
+            <div class="box">
+               <h2 class="title mb-5 mt-5 pt-5">
+                5 BENEFITS OF FOCUSING ON SINGLE-TOOL WORKOUTS
+               </h2>
+               <hr />
+               <h5 class="subtitle mt-5">
+                Using just one workout tool at a time may seem counterproductive to achieving the gains you want, but you’ll actually get there faster
+               </h5>
             </div>
+         </div>
+      </section>
 
-               <div
-                  class="col-xs col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl"
-               >
-                  <div class="card shadow mb-3" id="card">
-                     <a href="coaches.html"
-                        ><img
-                           src="./photos/38bacd_6f6c51769f164570a8ad52f481aa9b53_mv2.jpg"
-                           height="400px"
-                           width="100%"
-                           alt=""
+      <section class="text dark">
+         <div class="container">
+            <div class="box">
+               <div class="col-xs col-sm col-md col-lg col-xl">
+                  <div class="card border-light text-start shadow-none">
+                     <div class="card border-light shadow-none">
+                        <img
+                           src="./photos/single-tool-tile.jpg"
                            class="img-fluid"
-                           id="img"
-                     /></a>
-                     <a href="coaches.html" id="btnClasses"><p class="text mt-2" >CERTIFIED COACHES</p></a>
-                  </div>
-               </div>
+                           alt="hoyeon jung"
+                        />
+                     </div>
+                     <p class="text-dark mt-5">
+                        Less is more when it comes to training using just one exercise tool, whether it’s a dumbbell, Kettlebell, or plate.
+                     </p>
 
-               <div
-                  class="col-xs col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl"
-               >
-                  <div class="card shadow" id="card">
-                     <a href="about.html"
-                        ><img
-                           src="./photos/38bacd_6b8962e0fd4f40df9866ed532ade8be1_mv2.jpg"
-                           height="400px"
-                           width="100%"
-                           alt=""
-                           class="img-fluid"
-                           id="img"
-                     /></a>
-                     <a href="coaches.html" id="btnClasses"><p class="text mt-2" >WHO WE ARE</p></a>
+                     <p>Improve Core Stabilisation</p>
+                     <p>
+                        When performing a push or pull move using a single tool, the core needs to be engaged in order to keep the body in good form (for example, not rotating the trunk unnecessarily). Basically, there is an imbalance of load on the body, which activates the core muscles in order to keep you balanced and stable. So even when you’re not focusing on the core, you’d inevitably be giving those muscles a good workout too.
+
+                     </p>
+                     <p>Train Unused Muscles</p>
+                     <p>
+                        You lift a dumbbell with one arm to build strength in those biceps. Did you know that the other arm will enjoy the same effects? This is known as cross-education, in which the unused side of the body gains strength without being trained directly. The key is to use a high load and low repetitions, which encourages higher muscle contractions that activate the resting limb.
+
+                     </p>
+                     <p>Identify And Eliminate Imbalances</p>
+                     <p>
+                        The body naturally operates on an auto pilot mode; where there is an imbalance, it will activate what’s necessary to compensate. For example, if one of your legs is stronger than the other and you train both of them at the same time, the body will naturally shift more weight to the dominant leg. When you use just one tool and focus on one limb at a time, each gets trained independently and lets you observe and identify any imbalances.
+                     </p>
+
+                     <p>Increase Range Of Movement</p>
+                     <p>
+                        Single tool training lets you sharpen the focus on your muscles. That enables you to activate more muscles and strengthen each of them. The happy consequences of that you will find that your body is more flexible and you enjoy a wider range of motion.
+                     </p>
+
+                     <p>Motor Skills Development</p>
+                     <p>
+                        By isolating one side of the body at a time when doing single-tool training, it helps the brain develop motor engrams – movement patterns that give the motor skills a boost. That’s a valuable gain, as we employ motor skills for just about every type of movement from buttoning a shirt to brushing your teeth, driving a vehicle to lifting weights at the gym.
+                     </p>
+                     <p>To reap these benefits, speak to your trainer about incorporating single tool training into your workout. Goblet Squat, Single Arm Arnold Press, Plate Ground-to-Overhead, and Renegade Rows are all good examples of exercise moves that utilise just one tool.
+                    </p>
+                    
                   </div>
                </div>
             </div>
@@ -213,22 +182,27 @@
 
       <!-- Footer -->
       <footer
-         class="text-center text-lg-start text-white"
+         class="text-lg-start text-white mt-5"
          style="background-color: #141414"
       >
          <div class="container">
             <div class="row">
-               <div class="col-lg-2 col-md-6 mb-4 mb-md-0 mt-5 text-center">
-                  <h2 class="text-uppercase">NO LIMIT</h2>
+               <div class="col-xs col-sm col-md col-lg-3mb-4 mb-md-0 mt-5">
+                  <div class="navbar-brand">
+                     <h2>
+                        <sub><em>NO</em></sub
+                        ><sup><em>LIMIT</em></sup>
+                     </h2>
+                  </div>
 
                   <p>© 2020 NO Limit</p>
                   <p>ALL RIGHTS RESERVED</p>
                </div>
 
-               <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-5">
-                  <h5 class="text-uppercase text-center">MEMBERSHIP:</h5>
+               <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
+                  <h5 class="text-uppercase">MEMBERSHIP:</h5>
 
-                  <ul class="list-unstyled mb-0 text-center">
+                  <ul class="list-unstyled mb-0">
                      <li>
                         <a href="htmlIntroduction.html" id="footerLinks"
                            >Join Online
@@ -257,10 +231,10 @@
                   </ul>
                </div>
 
-               <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-5">
-                  <h5 class="text-uppercase text-center">Contact Us :</h5>
+               <div class="col-xs col-sm col-md col-lg-3 mb-4 mb-md-0 mt-5">
+                  <h5 class="text-uppercase">Contact Us :</h5>
 
-                  <ul class="list-unstyled mb-0 text-center">
+                  <ul class="list-unstyled mb-0">
                      <li>
                         <a
                            href="refTagList.html"
@@ -292,8 +266,8 @@
                   </ul>
                </div>
 
-               <div class="col-lg-2 col-md-6 mb-4 mb-md-0 mt-5 text-center">
-                  <h5 class="text-uppercase text-center">FIND US ON:</h5>
+               <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
+                  <h5 class="text-uppercase">FIND US ON:</h5>
 
                   <a
                      class="btn btn-outline-light btn-floating m-1"
@@ -320,11 +294,9 @@
                   ></a>
                </div>
 
-               <div class="col-lg-2 col-md-6 mb-4 mb-md-0 mt-5 text-center">
-                  <h5 class="text-uppercase text-center">
-                     SUBSCRIBE TO OUR NEWSLETTER:
-                  </h5>
-                  <button class="subscribe-btn">SUBSCRIBE</button>
+               <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
+                  <h5 class="text-uppercase">SUBSCRIBE TO OUR NEWSLETTER:</h5>
+                  <button class="subscribe-btn mt-3">SUBSCRIBE</button>
                </div>
             </div>
          </div>

@@ -29,8 +29,8 @@ const fetchData = async () => {
 
 const displayData = (exercises) => {
    const htmlString = exercises.map((item) => {
-      return `<h2 style="color: red">${item.name}</h2>
-     <h3>${item.category.name}</h3>
+      return `<h5 style="color: red">${item.name}</h5>
+     <h6>${item.category.name}</h6>
      <p>${item.description}</p>
      `;
      

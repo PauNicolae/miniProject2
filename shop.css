@@ -3,7 +3,7 @@
 }
 
 #apparel{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 #apparel-img{
@@ -16,3 +16,9 @@
     transition-delay: 0.1s;
 }
 
+hr{
+    width: 10%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
