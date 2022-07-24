@@ -1,0 +1,18 @@
+.navbar{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+#apparel{
+    margin-top: 10rem;
+}
+
+#apparel-img{
+    width: 200px;
+    height: 302x;
+}
+
+#apparel-img:hover {
+    filter: brightness(80%);
+    transition-delay: 0.1s;
+}
+

@@ -1,6 +1,6 @@
 // import * as mdb from 'mdb-ui-kit'; // lib
 let linkEl = document.querySelectorAll('.nav-link');
-console.log(linkEl);
+//console.log(linkEl);
 let navbarEl = document.querySelector('.navbar');
 // console.log(navbarEl);
 window.addEventListener('scroll', function () {
