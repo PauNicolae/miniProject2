@@ -86,11 +86,21 @@ hr{
 
 .title{
     font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
   }
   
   .subtitle{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
   }
+
+
+.box{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+
+
 
 footer{
     font-family: 'Bebas Neue', cursive;
