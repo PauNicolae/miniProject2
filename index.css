@@ -22,6 +22,8 @@
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
 }
 
 
@@ -56,9 +58,6 @@
   color: white;
 }
 
-/* .navbar ul li a.changeTextColor{
-  color: rgb(105, 95, 95);
-} */
 
 .nav-link{
   text-decoration: none;
@@ -98,27 +97,27 @@
     opacity: 0.;
     width: 100vw;
     height: 110vh;
-    padding-top: 20rem;
+    padding-top: 30rem;
     padding-bottom: 15rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
 }
 
 
-/* .welcome-message{
+.welcome-message{
    padding-top:0;
-} */
+}
 
 .hero-banner h1 {
-  font-size:4.25rem;
+  font-size: 6rem;
   padding-top: 0;
   font-family: 'Bebas Neue', cursive;
-  font-size: 6rem;
   letter-spacing: 3px;
 }
 
 
 
 #title-p{
-  font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
   font-size: 2rem;
   letter-spacing: 1.3px;
@@ -136,6 +135,7 @@
 #btn:hover{
     filter: brightness(80%);
 }
+
 
 /* .hero-banner .btn:before {
     content: "";
@@ -222,6 +222,8 @@ hr{
 .blog{
   padding-top: 5rem;
   padding-bottom: 5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
 }
 
 #blogCard{
@@ -258,6 +260,8 @@ footer{
  letter-spacing: 1.3px;
  padding-top: 5rem;
  padding-bottom: 5rem;
+ padding-left: 13rem;
+ padding-right: 13rem;
 }
 
 #footerLinks{
@@ -283,500 +287,542 @@ footer{
 
   /* media query */
 @media screen and (max-width: 480px){
+  .navbar{
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 3rem;
+ padding-right: 3rem;
+}
+/* hero page */
+.hero-banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.;
+  /* width: 100vw;
+  height: 110vh; */
+  padding-top: 30rem;
+  padding-bottom: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
-  .searchTab{
-     border-radius: 5px;
-     border-color: #2f2f41;
-     width: 35%;
-   }
- 
- .navbar-toggler-icon{
-   color: white;
- }
- 
- .navbar-nav{
-   background-color:  rgba(0, 0, 0, 0.8);
- }
- 
- #btn-signIn{
-   margin: 0;
- }
- 
- #hero-banner{
-   width: 100%;
-  
- }
- 
- #title-h1{
-   font-size:50px;
- }
- 
- .welcome-message{
-   padding-top: 6rem;
- }
- 
- 
-   .html-gif{
-     max-width: 70vw;
-     height: auto;
-   }
- 
-   #card-list{
-     padding-bottom: 10rem;
-     display: flex;
-     justify-content: center;
-     align-content: center;
-   
-   }
- 
- 
-  .content1{
-     width: 100%;
-   padding-top: 9rem;
-   padding-bottom: 9rem;
- }
- 
-  
-  .code-editor-section{
-   color: white;
-   height: auto;
-   width:100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- 
- }
- 
- .html-editor-gif{
-   max-width: 70vw;
-   height: auto;
- }
- 
- .btn-html-editor-gif{
-   background-color:  #df4759;
-   color: white;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
- }
+
+.welcome-message{
+ padding-top:0;
+}
+
+.hero-banner h1 {
+font-size:4rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 1.5rem;
+letter-spacing: 1.3px;
+}
+
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+footer{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
  
   }
  
   @media screen and (min-width: 481px) and (max-width:575px){
-   .searchTab{
-     border-radius: 5px;
-     border-color: #2f2f41;
-     width: 35%;
-   }
- 
- .navbar-toggler-icon{
-   color: white;
- }
- 
- 
- .navbar-nav{
-   background-color:  rgba(0, 0, 0, 0.8);
- }
- 
- #btn-signIn{
-   margin: 0;
- }
- 
- 
- #hero-banner{
-   width: 100%;
- }
- 
- 
- .welcome-message{
-   padding-top: 5rem;
- }
- 
-   .html-gif{
-     max-width: 70vw;
-     height: auto;
-   }
- 
-  #content1{
-   background-color: #1c1c1c;
-   width: 100%;
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- }
- 
- #code-editor-section{
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- width: 100%;
- }
- 
- 
- .html-editor-gif{
-   max-width: 70vw;
-   height: auto;
- 
- }
- 
- .btn-html-editor-gif{
-   background-color:  #df4759;
-   color: white;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
- }
- 
+/* hero page */
+.hero-banner{
+  padding-top: 30rem;
+  padding-bottom: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.navbar{
+letter-spacing: 1.3px;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+
+.hero-banner h1 {
+  font-size:4rem;
+  padding-top: 0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  }
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
   }
  
  
  
   @media screen and (min-width: 576px) and (max-width:767px){
-   .searchTab{
-     border-radius: 5px;
-     border-color: #2f2f41;
-     width: 35%;
-   }
- 
- .navbar-toggler-icon{
-   color: white;
- }
- 
- 
- .navbar-nav{
-   background-color:  rgba(0, 0, 0, 0.8);
- }
- 
- #btn-signIn{
-   margin: 0;
- }
- 
- 
- #hero-banner{
-   width: 100%;
-   /* height: 75vh; */
- }
- 
- 
- .welcome-message{
-   padding-top: 5rem;
- }
- 
-   .html-gif{
-     max-width: 70vw;
-     height: auto;
-   }
- 
- 
-  #content1{
-   background-color: #1c1c1c;
-   width: 100%;
-   /* height: 120vh; */
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- }
- 
- #code-editor-section{
- /* height: 80vh; */
- width: 100%;
- padding-top: 9rem;
- padding-bottom: 9rem;
- }
- 
- 
- .html-editor-gif{
-   max-width: 70vw;
-   height: auto;
- 
- }
- 
- .btn-html-editor-gif{
-   background-color:  #df4759;
-   color: white;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
- }
- 
+ /* hero page */
+ .hero-banner{
+  padding-top: 30rem;
+  padding-bottom: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.hero-banner h1 {
+  font-size:5rem;
+  padding-top: 0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  }
+
+  #title-p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.7rem;
+    letter-spacing: 1.3px;
+    }
+
+.navbar{
+letter-spacing: 1.3px;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+#btn{
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+
+}
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
   }
  
  
  
   @media screen and (min-width: 768px) and (max-width:991px){
-   .searchTab{
-     border-radius: 5px;
-     border-color: #2f2f41;
-     width: 35%;
-   }
+ /* hero page */
+
+.hero-banner h1 {
+font-size:5rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 1.7rem;
+letter-spacing: 1.3px;
+}
+
+.hero-banner{
+  padding-top: 30rem;
+  padding-bottom: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.navbar{
+letter-spacing: 1.3px;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
  
- .navbar-toggler-icon{
-   color: white;
- }
- 
- 
- .navbar-nav{
-   background-color:  rgba(0, 0, 0, 0.8);
- }
- 
- #btn-signIn{
-   margin: 0;
- }
- 
- 
- #hero-banner{
-   width: 100%;
-   /* height: 75vh; */
- }
- 
- .welcome-message{
-   padding-top: 7rem;
- }
- 
-   .html-gif{
-     width: 450px;
-     height: 480px;
-     margin: 0;
-   }
- 
-   .card{
-     margin-left: 120px;
-   }
- 
-  #content1{
-     background-color: #1c1c1c;
-     width: 100%;
-     /* height: 70vh; */
-     padding-top: 10rem;
-     padding-bottom: 6rem;
- }
- 
- #code-editor-section{
-   /* height: 65vh; */
-   width: 100%;
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- }
- 
- .html-editor-gif{
-   max-width: 70vw;
-   height: auto;
- 
- }
- 
- .btn-html-editor-gif{
-   background-color:  #df4759;
-   color: white;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
- }
   }
  
  
  
- 
-  @media screen and (min-width: 992px) and (max-width:1279px){
- 
-   #hero-banner{
-     width: 100%;
-     /* height: 75vh; */
-   }
- 
-   .welcome-message{
-     padding-top: 7rem;
-   }
- 
-   #content1{
-     background-color: #1c1c1c;
-     width: 100%;
-     /* height: 75vh; */
-     padding-top: 10rem;
-     padding-bottom: 9rem;
- }
- 
- #code-editor-section{
-   /* height: 75vh; */
-   width: 100%;
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- }
-  }
  
  
   @media screen and (min-width: 992px) and (max-width: 1199px){
-   .searchTab {
-     border-radius: 5px;
-     border-color: #2f2f41;
-     width: 8rem;
-  }
+    .hero-banner{
+      padding-top: 30rem;
+      padding-bottom: 15rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    .navbar{
+    letter-spacing: 1.3px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    }
+    
+    
+    .blog{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    
+    footer{
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+ 
  }
  
  
  
-  @media screen and (min-width: 1280px) and (max-width:1799px){
+  @media screen and (min-width: 1200px) and (max-width:1799px){
+    .hero-banner{
+      padding-top: 32rem;
+      padding-bottom: 15rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    .navbar{
+    letter-spacing: 1.3px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    }
  
-   #hero-banner{
-     width: 100%;
-     /* height: 75vh; */
-   }
- 
-   .welcome-message{
-     padding-top: 7rem;
-   }
- 
-   #content1{
-     background-color: #1c1c1c;
-     width: 100%;
-     /* height: 75vh; */
-     padding-top: 10rem;
-     padding-bottom: 9rem;
- }
- 
- #code-editor-section{
-   /* height: 75vh; */
-   width: 100%;
-   padding-top: 10rem;
-   padding-bottom: 9rem;
- }
+    
+    
+    .blog{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    
+    footer{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
  
   }
  
  
   @media screen and (min-width: 1800px) and (max-width:1920px){
- 
-   #hero-banner{
-     width: 100%;
-     /* height: 100vh; */
- }
- 
-   .welcome-message{
-     padding-top: 10rem;
-   }
- 
-   #content1{
-     width: 100%;
-     /* height: 100vh; */
-     padding-top: 10rem;
-     padding-bottom: 8rem;
- }
- 
- #code-editor-section{
-   /* height: 100vh; */
-   width: 100%;
-   padding-top: 9rem;
-   padding-bottom: 8rem;
- }
- 
+    .hero-banner{
+      padding-left: 10rem;
+      padding-right: 10rem;
+      padding-top: 30rem;
+      padding-bottom: 15rem;
+    }
+
+    .navbar{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    }
+    
+    
+    
+    .blog{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    
+    footer{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+   
   }
  
  
   @media screen and (min-width: 1921px) and (max-width:2560px){
+  
+  /* hero page */
+.hero-banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.;
+  /* width: 100vw;
+  height: 110vh; */
+  padding-top: 40rem;
+  padding-bottom: 10rem;
+}
+
+
+.welcome-message{
+ padding-top:0;
+}
+
+.hero-banner h1 {
+font-size:8rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 3rem;
+letter-spacing: 1.3px;
+}
  
-   #hero-banner{
-     opacity: 0.;
-     width: 100%;
-     /* height: 100vh; */
- }
- 
-   .welcome-message{
-     padding-top: 200px;
-   }
- 
- 
-   #content1{
-     width: 100%;
-     height: 80vh;
-     padding-top: 100px;
- }
- 
- #code-editor-section{
-   height: 80vh;
-   width: 100%;
- }
- 
+.hero-banner{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+.navbar{
+letter-spacing: 1.3px;
+padding-left: 13rem;
+padding-right: 13rem;
+}
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+footer{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
   }
  
   @media screen and (min-width: 2559px) and (max-width:2879px){
+ /* hero page */
+.hero-banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.;
+  /* width: 100vw;
+  height: 110vh; */
+  padding-top: 50rem;
+  padding-bottom: 10rem;
+}
+
+
+.welcome-message{
+ padding-top:0;
+}
+
+.hero-banner h1 {
+font-size:8rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 3rem;
+letter-spacing: 1.3px;
+}
  
-   #hero-banner{
-     opacity: 0.;
-     width: 100%;
-     /* height: 100vh; */
- }
- 
-   .welcome-message{
-     padding-top: 200px;
-   }
- 
-   #content1{
-     width: 100%;
-     /* height: 75vh; */
-     padding-top: 10rem;
-     padding-bottom: 8rem
- }
- 
- #code-editor-section{
-   padding-top: 10rem;
-   padding-bottom: 8rem;
-   width: 100%;
- }
+.hero-banner{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+.navbar{
+letter-spacing: 1.3px;
+padding-left: 13rem;
+padding-right: 13rem;
+}
+
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+footer{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
  
   }
  
  
   @media screen and (min-width: 2880px) and (max-width:3071px){
- 
-   #hero-banner{
-     opacity: 0.;
-     width: 100%;
-     /* height: 100vh; */
- }
- 
-   .welcome-message{
-     padding-top: 200px;
-   }
- 
- 
-   #content1{
-     width: 100%;
-     /* height: 75vh; */
-     padding-top: 10rem;
-     padding-bottom: 8rem
- }
- 
- #code-editor-section{
-   /* height: 75vh; */
-   width: 100%;
-   padding-top: 10rem;
-   padding-bottom: 8rem
- }
- 
+  /* hero page */
+.hero-banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.;
+  /* width: 100vw;
+  height: 110vh; */
+  padding-top: 50rem;
+  padding-bottom: 10rem;
+}
+
+
+.welcome-message{
+ padding-top:0;
+}
+
+.hero-banner h1 {
+font-size:9rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 4rem;
+letter-spacing: 1.3px;
+}
+
+#btn{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+  font-size: x-large;
+}
+
+.navbar{
+font-size: 2rem;
+letter-spacing: 1.3px;
+padding-left: 13rem;
+padding-right: 13rem;
+}
+
+.navbar-brand h2{
+  font-size: 4rem;
+}
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+footer{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
   }
  
   @media screen and (min-width: 3072px){
-   #hero-banner{
-     opacity: 0.;
-     width: 100%;
- }
- 
-   .welcome-message{
-     padding-top: 200px;
-   }
- 
- 
-   #content1{
-     width: 100%;
-     /* height: 75vh; */
-     padding-top: 9rem;
-     padding-bottom: 8rem
- }
- 
- #code-editor-section{
-   /* height: 75vh; */
-   padding-top: 10rem;
-   padding-bottom: 8rem
- }
- 
+    /* hero page */
+.hero-banner{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./photos/jump2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.;
+  /* width: 100vw;
+  height: 110vh; */
+  padding-top: 50rem;
+  padding-bottom: 10rem;
+}
+
+
+.welcome-message{
+ padding-top:0;
+}
+
+.hero-banner h1 {
+font-size:9rem;
+padding-top: 0;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+}
+
+
+
+#title-p{
+font-family: 'Bebas Neue', cursive;
+font-size: 4rem;
+letter-spacing: 1.3px;
+}
+
+#btn{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+  font-size: x-large;
+}
+
+
+.hero-banner{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+.navbar{
+font-size: 2rem;
+letter-spacing: 1.3px;
+padding-left: 13rem;
+padding-right: 13rem;
+}
+
+.navbar-brand h2{
+  font-size: 4rem;
+}
+
+
+.blog{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+footer{
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
   }
+ 
  /* end of media query  */
