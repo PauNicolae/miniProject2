@@ -301,8 +301,8 @@ footer{
   opacity: 0.;
   /* width: 100vw;
   height: 110vh; */
-  padding-top: 30rem;
-  padding-bottom: 10rem;
+  padding-top: 25rem;
+  padding-bottom: 15rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -483,7 +483,7 @@ footer{
  
   @media screen and (min-width: 992px) and (max-width: 1199px){
     .hero-banner{
-      padding-top: 30rem;
+      padding-top: 28rem;
       padding-bottom: 15rem;
       padding-left: 5rem;
       padding-right: 5rem;
@@ -511,9 +511,9 @@ footer{
  
  
  
-  @media screen and (min-width: 1200px) and (max-width:1799px){
+  @media screen and (min-width: 1280px) and (max-width:1799px){
     .hero-banner{
-      padding-top: 32rem;
+      padding-top: 20rem;
       padding-bottom: 15rem;
       padding-left: 10rem;
       padding-right: 10rem;
@@ -581,8 +581,10 @@ footer{
   opacity: 0.;
   /* width: 100vw;
   height: 110vh; */
-  padding-top: 40rem;
-  padding-bottom: 10rem;
+  padding-top: 35rem;
+  padding-bottom: 20rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
 }
 
 
@@ -605,10 +607,7 @@ font-size: 3rem;
 letter-spacing: 1.3px;
 }
  
-.hero-banner{
-  padding-left: 13rem;
-  padding-right: 13rem;
-}
+
 .navbar{
 letter-spacing: 1.3px;
 padding-left: 13rem;
@@ -637,8 +636,8 @@ footer{
   opacity: 0.;
   /* width: 100vw;
   height: 110vh; */
-  padding-top: 50rem;
-  padding-bottom: 10rem;
+  padding-top: 40rem;
+  padding-bottom: 15rem;
 }
 
 
