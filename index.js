@@ -5,11 +5,11 @@ let navbarEl = document.querySelector('.navbar');
 // console.log(navbarEl);
 window.addEventListener('scroll', function () {
    let currentScroll = window.pageYOffset;
-   if (currentScroll >= 1100) {
+   if (currentScroll >= 100) {
       navbarEl.classList.add('changeColor');
       console.log(currentScroll)
    
-   } else if (currentScroll < 1100) {
+   } else if (currentScroll < 100) {
       navbarEl.classList.remove('changeColor');
   
    }
