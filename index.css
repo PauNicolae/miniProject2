@@ -26,8 +26,8 @@
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
- /* padding-left: 13rem;
- padding-right: 12rem; */
+ padding-left: 13rem;
+ padding-right: 12rem;
 }
 
 
@@ -100,7 +100,7 @@
     background-position: center;
     opacity: 0.;
     width: 100vw;
-    height: 110vh;
+    height: 120vh;
     padding-top: 30rem;
     padding-bottom: 15rem;
     padding-left: 13rem;
@@ -280,7 +280,7 @@ footer{
  padding-top: 5rem;
  padding-bottom: 5rem;
  padding-left: 13rem;
-padding-right: 12rem;
+ padding-right: 13rem;
 }
 
 #footerLinks{
@@ -677,7 +677,10 @@ footer{
       padding-right: 12rem;
     }
     
-    
+    footer{
+      padding-left: 13rem;
+      padding-right: 12rem;
+    }
     
    
   }

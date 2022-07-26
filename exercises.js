@@ -1,4 +1,4 @@
-const url = 'https://wger.de/api/v2/exerciseinfo?limit=50';
+const url = 'https://wger.de/api/v2/exerciseinfo?limit=419';
 const subContainer = document.querySelector('.subContainer');
 // const search = document.querySelector('#search');
 let data = [];
@@ -34,13 +34,11 @@ const displayData = (exercises) => {
       <h4 style="color: red">${item.name}</h4>
       <h5>${item.category.name}</h5>
       <p>${item.description}</p>
-      ${item.images.map(el => {
+      ${item.images.map((el) => {
          // console.log(el.image)
-         return `<img class="exercisesImages" src="${el.image}"/>`
+         return `<img class="exercisesImages" src="${el.image}"/>`;
       })}`;
    });
    subContainer.innerHTML = htmlString;
 };
 fetchData();
-
-
