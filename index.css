@@ -190,6 +190,7 @@ hr{
     justify-content: center;
     align-items: center;
     align-content: center;
+    
  }
 
 #card {
@@ -228,17 +229,24 @@ hr{
   padding-bottom: 5rem;
   padding-left: 13rem;
   padding-right: 13rem;
+  
+}
+
+.imgBlog{
+  max-width: 100%;
 }
 
 #blogCard{
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
     text-align: center;
     max-width: 40rem;
-    max-height: 40rem;
-    margin: auto
+    min-height: 30rem;
+    max-height: 30rem;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .aBlog{
@@ -251,11 +259,18 @@ hr{
   text-decoration: none;
 }
 
+
+.pTitle{
+  height: 2rem;
+}
+
 .pTitle:hover{
   color:#D71619;
 }
 
-
+.pSubtitle{
+  height: 5rem;
+}
 
 /* footer */
 footer{
@@ -663,13 +678,6 @@ footer{
     }
     
     
-    
-    .blog{
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-      padding-left: 10rem;
-      padding-right: 10rem;
-    }
     
    
   }
