@@ -3,8 +3,8 @@ const subContainer = document.querySelector('.subContainer');
 // const search = document.querySelector('#search');
 let data = [];
 
-search.addEventListener('keypress', (e) => {
-   const inputEl = document.getElementById('search');
+searchBox.addEventListener('keypress', (e) => {
+   const inputEl = document.getElementById('searchBox');
 
    const filteredData = data.results.filter((item) => {
       if (e.key === 'Enter') {
@@ -14,6 +14,7 @@ search.addEventListener('keypress', (e) => {
             return inputEl.value
                .toLowerCase()
                .includes(item.name.toLowerCase());
+               // .includes(item.category.name.toLowerCase());
          }
       }
    });
