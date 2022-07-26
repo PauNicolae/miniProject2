@@ -42,3 +42,5 @@ const displayData = (exercises) => {
    subContainer.innerHTML = htmlString;
 };
 fetchData();
+
+

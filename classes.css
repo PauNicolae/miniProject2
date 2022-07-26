@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@100;200;300&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   font-family: 'Lato', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+
+
+
+.navbar{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+/* background-color: transparent;  */
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.5rem;
+ letter-spacing: 1.3px;
+}
+
+.navbar ul li a{
+  color: white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+/* .navbar ul li a.changeTextColor{
+  color: rgb(105, 95, 95);
+} */
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+
+/* for javascript scroll*/
+.changeColor{
+    background-color:  rgba(0, 0, 0, 0.5);
+  }
+/* for javascript scroll*/
+
+
+
+
+
+/* footer */
+footer{
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1rem;
+ letter-spacing: 1.3px;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+}
+
+#footerLinks{
+    color: white;
+  }
+  #footerLinks:hover{
+    filter: brightness(80%);
+  }
+
+  .subscribe-btn{
+    background-color: #D71619;
+    padding: .5rem 2rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .subscribe-btn:hover{
+    filter: brightness(80%);
+  }
+  .navbar{
+    background-color:  rgba(0, 0, 0, 0.5); 
+  }
+  
+.box{
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  padding: 20px;
+  
+  
+
+}
+
+#h1-fitness{
+  margin-top: 10rem;
+}
+
+.card{
+  align-content: center;
+}
+.btn-classes{
+  background-color: #ED213A;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
