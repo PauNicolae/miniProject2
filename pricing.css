@@ -25,6 +25,9 @@
  font-family: 'Bebas Neue', cursive;
  font-size: 1.5rem;
  letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right:12rem;
+
 }
 
 .navbar ul li a{
@@ -95,11 +98,14 @@
 
 /* footer */
 footer{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1rem;
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1rem;
  letter-spacing: 1.3px;
  padding-top: 5rem;
  padding-bottom: 5rem;
+ padding-left: 13rem;
+ padding-right: 12rem;
+ 
 }
 
 #footerLinks{
@@ -122,12 +128,35 @@ footer{
   .navbar{
     background-color:  rgba(0, 0, 0, 0.5); 
   }
-  #h3-price{
-    margin-top: 10rem;
-}
-
-#h2-choose{
-  margin-top: 5rem;
-}
-
   
+.box{
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 20px;
+
+}
+.btn-price{
+  background-color: #ED213A;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+#h1-price{
+  margin-top: 8rem;
+  
+ 
+}
+hr{
+  width: 10%;
+  margin: 0 auto!important;
+  display: block;
+  height: 12px;
+}
