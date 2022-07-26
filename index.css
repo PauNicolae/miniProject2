@@ -195,8 +195,8 @@ hr{
     align-content: center;
     align-items: center;
     text-align: center;
-    max-width: 20rem;
-    max-height: 33rem;
+    width: 20rem;
+    height: 33rem;
     margin: auto
 }
 
@@ -233,7 +233,7 @@ hr{
     align-items: center;
     text-align: center;
     max-width: 40rem;
-    max-height: 35rem;
+    max-height: 40rem;
     margin: auto
 }
 
@@ -301,7 +301,7 @@ footer{
   opacity: 0.;
   /* width: 100vw;
   height: 110vh; */
-  padding-top: 25rem;
+  padding-top: 20rem;
   padding-bottom: 15rem;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -345,7 +345,7 @@ footer{
   @media screen and (min-width: 481px) and (max-width:575px){
 /* hero page */
 .hero-banner{
-  padding-top: 30rem;
+  padding-top: 25rem;
   padding-bottom: 15rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -482,6 +482,23 @@ footer{
  
  
   @media screen and (min-width: 992px) and (max-width: 1199px){
+
+    .hero-banner h1 {
+      font-size:5rem;
+      padding-top: 0;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 3px;
+      }
+      
+      
+      
+      #title-p{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.7rem;
+      letter-spacing: 1.3px;
+      }
+
+
     .hero-banner{
       padding-top: 28rem;
       padding-bottom: 15rem;
@@ -508,10 +525,40 @@ footer{
     }
  
  }
+
+
+ @media screen and (min-width: 1200px) and (max-width:1279px){
+  .hero-banner{
+    padding-top: 25rem;
+    padding-bottom: 15rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .navbar{
+  letter-spacing: 1.3px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  }
+
+  
+  
+  .blog{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  
+  footer{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+}
  
  
  
-  @media screen and (min-width: 1280px) and (max-width:1799px){
+  @media screen and (min-width: 1280px) and (max-width:1360px){
     .hero-banner{
       padding-top: 20rem;
       padding-bottom: 15rem;
@@ -540,18 +587,75 @@ footer{
  
   }
  
+  @media screen and (min-width: 1361px) and (max-width:1600px){
+    .hero-banner{
+      padding-top: 20rem;
+      padding-bottom: 15rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    .navbar{
+    letter-spacing: 1.3px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    }
+ 
+  
+    .blog{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    
+    footer{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+ 
+  }
+  
+  @media screen and (min-width: 1601px) and (max-width:1799px){
+    .hero-banner{
+      padding-top: 20rem;
+      padding-bottom: 15rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    .navbar{
+    letter-spacing: 1.3px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    }
+ 
+  
+    .blog{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    
+    footer{
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+ 
+  }
+  
+
  
   @media screen and (min-width: 1800px) and (max-width:1920px){
     .hero-banner{
-      padding-left: 10rem;
-      padding-right: 10rem;
       padding-top: 30rem;
       padding-bottom: 15rem;
+      padding-left: 13rem;
+      padding-right: 12rem;
     }
 
     .navbar{
-    padding-left: 10rem;
-    padding-right: 10rem;
+      padding-left: 13rem;
+      padding-right: 12rem;
     }
     
     
@@ -607,11 +711,24 @@ font-size: 3rem;
 letter-spacing: 1.3px;
 }
  
+#btn{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+  font-size: x-large;
+}
 
 .navbar{
+font-size: 2rem;
 letter-spacing: 1.3px;
 padding-left: 13rem;
 padding-right: 13rem;
+}
+
+.navbar-brand h2{
+  font-size: 4rem;
 }
 
 .blog{
@@ -664,12 +781,25 @@ letter-spacing: 1.3px;
   padding-left: 13rem;
   padding-right: 13rem;
 }
+#btn{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  letter-spacing: 1.3px;
+  background-color: #D71619;
+  color: white; 
+  font-size: x-large;
+}
+
 .navbar{
+font-size: 2rem;
 letter-spacing: 1.3px;
 padding-left: 13rem;
 padding-right: 13rem;
 }
 
+.navbar-brand h2{
+  font-size: 4rem;
+}
 
 .blog{
   padding-top: 5rem;
@@ -752,6 +882,8 @@ footer{
 }
   }
  
+
+
   @media screen and (min-width: 3072px){
     /* hero page */
 .hero-banner{

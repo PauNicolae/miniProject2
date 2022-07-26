@@ -21,6 +21,8 @@
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
 }
 
 .navbar ul li a{
@@ -93,8 +95,8 @@ hr{
 
 
 .box{
-  padding-left: 15rem;
-  padding-right: 15rem;
+ max-width: 70%;
+ margin: auto;
 }
 
 
@@ -106,6 +108,8 @@ footer{
  letter-spacing: 1.3px;
  padding-top: 5rem;
  padding-bottom: 5rem;
+ padding-left: 13rem;
+ padding-right: 12rem;
 }
 
 #footerLinks{
