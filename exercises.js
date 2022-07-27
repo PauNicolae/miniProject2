@@ -1,4 +1,4 @@
-const url = 'https://wger.de/api/v2/exerciseinfo?limit=300';
+const url = 'https://wger.de/api/v2/exerciseinfo?limit=50';
 const subContainer = document.querySelector('.subContainer');
 // const search = document.querySelector('#search');
 let data = [];
