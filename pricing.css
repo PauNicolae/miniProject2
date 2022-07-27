@@ -143,6 +143,12 @@ footer{
   width: 100%;
 }
 
+a.btn-price:hover{
+color: white;
+filter: brightness(80%);
+}
+
+
 #h1-price{
   /* margin-top: 8rem; */
   
