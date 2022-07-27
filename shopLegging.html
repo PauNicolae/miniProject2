@@ -9,6 +9,8 @@
          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
          crossorigin="anonymous"
       />
+      
+      <link rel="stylesheet" href="navFooter.css" />
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -22,14 +24,62 @@
          href="./photos/favicon (2).ico"
          type="image/x-icon"
       />
-      <link rel="stylesheet" href="shop.css" />
-      <link rel="stylesheet" href="navFooterMediaQuery.css" />
+
       <title>Mini Project 2</title>
+
+      <style>
+         .btn2 {
+            background: black;
+            border: 1px solid black;
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            font-size: medium;
+            color: white;
+         }
+
+         .btn2:hover {
+            border: 1px solid black;
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            background: white;
+            font-size: medium;
+            color: black;
+         }
+
+         .btnAddToCart {
+            background: red;
+            border: 1px solid red;
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            font-size: medium;
+            color: white;
+         }
+
+         .btnAddToCart:hover {
+            border: 1px solid black;
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            background: white;
+            font-size: medium;
+            color: black;
+         }
+
+         .form-check-input {
+            background-color: black;
+         }
+
+         #exampleRadios1 {
+            background-color: black;
+            color: black;
+         }
+      </style>
    </head>
    <body id="body">
       <header>
-         <!-- Navbar -->
-
          <!-- Navbar -->
 
          <nav class="navbar navbar-expand-lg fixed-top shadow-none">
@@ -54,7 +104,7 @@
                   <li class="nav-item">
                      <a
                         href="index.html
-                    "
+                       "
                         class="nav-link"
                         >HOME</a
                      >
@@ -62,7 +112,7 @@
                   <li class="nav-item">
                      <a
                         href="exercises.html
-                  "
+                     "
                         class="nav-link"
                         >EXERCISES</a
                      >
@@ -70,7 +120,7 @@
                   <li class="nav-item">
                      <a
                         href="classes.html
-                 "
+                    "
                         class="nav-link"
                         >CLASSES</a
                      >
@@ -78,7 +128,7 @@
                   <li class="nav-item">
                      <a
                         href="pricing.html
-               "
+                  "
                         class="nav-link"
                         >PRICING</a
                      >
@@ -86,7 +136,7 @@
                   <li class="nav-item">
                      <a
                         href="shop.html
-                 "
+                    "
                         class="nav-link"
                         >SHOP</a
                      >
@@ -94,7 +144,7 @@
                   <li class="nav-item">
                      <a
                         href="about.html
-                 "
+                    "
                         class="nav-link"
                         >ABOUT</a
                      >
@@ -102,7 +152,7 @@
                   <li class="nav-item">
                      <a
                         href="logIn.html
-                 "
+                    "
                         class="nav-link"
                         >LOGIN</a
                      >
@@ -113,85 +163,74 @@
          </nav>
       </header>
 
-      <section class="text-center text-dark">
-         <div class="container pt-5">
-            <h2 class="title mt-5 mb-5 pt-5">Shop</h2>
-            <hr />
-            <div id="apparel" class="col-sm">
-               <a href="#">
-                  <img
-                     class="img-fluid mx-auto d-block shadow"
-                     src="photos/1.png"
-                     alt=""
-               /></a>
-            </div>
-         </div>
-
-         <div class="container mt-5 mb-5">
-            <div class="row mt-5">
-               <div class="col-sm text-center">
-                  <a href="shopSportsBra.html"
-                     ><img
+      <!-- offer -->
+      <section class="text dark p-5 mt-5">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5 pt-3">
+                  <div class="card border shadow">
+                     <img
+                        src="./photos/leggings.png
+                        "
+                        alt="noLimitSportsBra"
                         class="img-fluid"
-                        src="photos/2.png"
-                        id="apparel-img"
-                        alt=""
-                  /></a>
-                  <p>No Limit Sports Bra</p>
-                  <p><strong>Price $45.99</strong></p>
-               </div>
-
-               <div class="col-sm text-center">
-                  <a href="shopHoodie.html"
-                     ><img
-                        class="img-fluid"
-                        src="photos/3.png"
-                        id="apparel-img"
-                        alt=""
                      />
-                  </a>
-                  <p class="text-center">No Limit Hoodie</p>
-                  <p><strong>Price $64.99</strong></p>
+                  </div>
                </div>
-
-               <div class="col-sm text-center">
-                  <a href="shopCropTank.html"
-                     ><img
-                        class="img-fluid"
-                        src="photos/4.png"
-                        id="apparel-img"
-                        alt=""
-                  /></a>
-                  <p>No Limit Crop Tank</p>
-                  <p><strong>Price $34.99</strong></p>
-               </div>
-
-               <div class="col-sm text-center">
-                  <a href="shopMuscleTank.html"
-                     ><img
-                        class="img-fluid"
-                        src="photos/5.png"
-                        id="apparel-img"
-                        alt=""
-                  /></a>
-                  <p>No Limit Muscle Tank</p>
-                  <p><strong>Price $34.99</strong></p>
-               </div>
-
-               <div class="col-sm text-center">
-                  <a href="shopLegging.html"
-                     ><img
-                        class="img-fluid"
-                        src="photos/6.png"
-                        id="apparel-img"
-                        alt=""
-                  /></a>
-                  <p>No Limit x Leggings!</p>
-                  <p><strong>Price $68.00</strong></p>
+               <div class="col-md-6 col-lg-6 offset-.5 mt-5">
+                  <div class="card border-light shadow-none">
+                     <h2 class="text-dark">No Limit Legging</h2>
+                     <p class="lead"></p>
+                     <p class="lead fw-bold">$68.00</p>
+                     <p>Size</p>
+                     <select
+                        class="form-select"
+                        aria-label="Default select example"
+                     >
+                        <option selected>Select</option>
+                        <option value="1">Large</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Small</option>
+                        <option value="3">Extra Small</option>
+                     </select>
+                     <br />
+                     <p>Color</p>
+                     <select
+                        class="form-select"
+                        aria-label="Default select example"
+                     >
+                        <option selected>Select</option>
+                        <option value="1">Black</option>
+                        <option value="1">Maroon</option>
+                     </select>
+                     <br />
+                     <p class="text-dark">Quantity</p>
+                     <div class="col-xs col-sm col-md col-lg-6 col-xl col-xxl">
+                        <div class="input-group">
+                           <input
+                              type="number"
+                              step="1"
+                              max="10"
+                              value="1"
+                              name="quantity"
+                              class="quantity-field border text-center w-25"
+                           />
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6 mt-4">
+                        <button id="btnAddToCart" class="btnAddToCart">
+                           Add to Cart
+                        </button>
+                     </div>
+                     <p class="mt-5">
+                        This legging is made of cotton and spandex fabric that stretches and feels like buttery smooth.
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
       </section>
+      <!-- Footer -->
 
       <!-- Footer -->
       <footer
@@ -322,6 +361,6 @@
          crossorigin="anonymous"
       ></script>
       <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-      <!-- <script src="index.js"></script> -->
+      <script src="shop.js"></script>
    </body>
 </html>
