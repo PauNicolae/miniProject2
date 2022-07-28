@@ -117,7 +117,7 @@ footer{
   }
 
   
-.box{
+/* .box{
   border-style: solid;
   border-width: 1px;
   margin-top: 1rem;
@@ -126,6 +126,13 @@ footer{
   
   
 
+} */
+
+
+#card-box{
+
+ 
+  border:0.5px solid black ;
 }
 
 #h1-fitness{
@@ -147,3 +154,6 @@ footer{
   
 }
 
+#hr-classes{
+  width: 100%;
+}
