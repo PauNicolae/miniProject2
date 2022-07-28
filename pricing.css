@@ -11,9 +11,9 @@
 }
 
 /* navbar */
-.navbar-brand h4{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+.navbar-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
 }
 
 
@@ -23,7 +23,7 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 /* background-color: transparent;  */
  font-family: 'Bebas Neue', cursive;
- font-size: 1.5rem;
+ font-size: 1.2rem;
  letter-spacing: 1.3px;
  padding-left: 13rem;
  padding-right:12rem;
@@ -86,12 +86,6 @@
 }
 
 
-/* for javascript scroll*/
-.changeColor{
-    background-color:  rgba(0, 0, 0, 0.5);
-  }
-/* for javascript scroll*/
-
 
 
 
@@ -150,9 +144,9 @@ footer{
 }
 
 #h1-price{
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   
- 
+  font-family: 'Roboto Slab', serif;
 }
 hr{
   width: 10%;
