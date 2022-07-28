@@ -9,7 +9,8 @@
          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
          crossorigin="anonymous"
       />
-      
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="shortcut icon" href="photos/no limit favicon.png" type="image/x-icon">
       <link rel="stylesheet" href="navFooter.css" />
       <link
          rel="stylesheet"
@@ -168,6 +169,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-5 pt-3">
+                  <div data-aos="fade-up" data-aos-duration="2000">
                   <div class="card border shadow">
                      <img
                         src="./photos/cropTank.png"
@@ -176,6 +178,7 @@
                      />
                   </div>
                </div>
+            </div>
                <div class="col-md-6 col-lg-6 offset-.5 mt-5">
                   <div class="card border-light shadow-none">
                      <h2 class="text-dark">No Limit Crop Tank</h2>
@@ -360,5 +363,9 @@
       ></script>
       <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
       <script src="shop.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+       </script> 
    </body>
 </html>
