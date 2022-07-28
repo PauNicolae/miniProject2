@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
-
-__d("LSInsertRtcSignal",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(22).add({timestampMs:a[0],type_:a[1],payload:a[2]})},function(a){return b.resolve(c)}])}e.exports=a}),null);
