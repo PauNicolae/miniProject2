@@ -1,0 +1,64 @@
+.btn2 {
+    background: black;
+    border: 1px solid black;
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+ }
+
+ .btn2:hover {
+    border: 1px solid black;
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    background: white;
+    font-size: medium;
+    color: black;
+ }
+
+ .btnAddToCart {
+    background:  #D71619;
+    border: 1px solid  #D71619;
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+ }
+
+ .btnAddToCart:hover {
+   filter: brightness(80%);
+ }
+
+ .form-check-input {
+    background-color: black;
+ }
+
+ #exampleRadios1 {
+    background-color: black;
+    color: black;
+ }
+
+ div.pagination {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .disabled{
+    pointer-events: none;
+ }
+
+ .dPagination{
+    color: grey;
+ }
+
+
+ .aPagination{
+    color:black;
+ }
+
+ .aPagination:hover{
+    color:#D71619;
+ }
