@@ -130,8 +130,6 @@ footer{
 
 
 #card-box{
-
- 
   border:0.5px solid black ;
 }
 
@@ -161,4 +159,9 @@ footer{
 
 #hr-classes{
   width: 100%;
+}
+
+#img{
+min-height: 24rem;
+max-height: 24rem;
 }
