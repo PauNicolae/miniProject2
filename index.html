@@ -145,18 +145,14 @@
          <!-- end of banner-section -->
 
          <section class="firstContent text-center text-dark">
-            <div
-               data-aos="fade-right"
-               data-aos-offset="200"
-               data-aos-easing="ease-in-sine"
-            >
+           
                <h2 class="title mb-5">WE HAVE WHAT YOU NEED</h2>
                <hr />
                <h5 class="subtitle mt-5 pb-5">
                   Whether you’re just starting out or an old hand, you’ll find
                   what you need for your fitness journey.
                </h5>
-            </div>
+            
             <div class="container mt-5" id="box">
                <div class="row">
                   <div
@@ -227,33 +223,68 @@
 
          <!-- ADS -->
          <section class="adsTitle text-center text-dark">
-            <div
-               data-aos="fade-right"
-               data-aos-offset="200"
-               data-aos-easing="ease-in-sine"
-            >
+            
                <h2 class="title mb-5">HIGHLIGHTS</h2>
                <hr />
                <h5 class="subtitle mt-5 pb-5">
                   Here’s what’s happening in our clubs.
                </h5>
-            </div>
-            <div class="ads" id="ads">
-               <img src="./photos/vs_tile-1200x668.png" alt="" width="100%" />
+            
+            <div
+               id="carouselExampleControls"
+               class="carousel slide"
+               data-bs-ride="carousel"
+            >
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img
+                        src="./photos/vs_tile-1200x668.png"
+                        class="d-block w-100"
+                        alt="..."
+                     />
+                  </div>
+                  <div class="carousel-item">
+                     <img
+                        src="./photos/ff-vs-tile.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                     />
+                  </div>
+               </div>
+               <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+               >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+               >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
             </div>
          </section>
 
          <!-- BLOG -->
          <section class="blog text-center text-dark">
-            <div
-               data-aos="fade-right"
-               data-aos-offset="200"
-               data-aos-easing="ease-in-sine"
-            >
+           
                <h2 class="title mt-5 mb-5 pt-5">BLOG</h2>
 
                <hr />
-            </div>
+            
             <!-- <div class="container mt-5"> -->
             <div class="row mt-5">
                <div
@@ -475,10 +506,9 @@
                </div>
             </div>
          </footer>
-<!-- footer -->
-
+         <!-- footer -->
       </div>
-      
+
       <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -495,10 +525,29 @@
       <script>
          AOS.init();
       </script>
-                              
-<script type='text/javascript'>
-   (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', '8Y2H6pJ3AbbaTTcsp_c', {});
-</script>
-                 
+
+      <script type="text/javascript">
+         (function (I, L, T, i, c, k, s) {
+            if (I.iticks) return;
+            I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
+            var h = T.head || T.documentElement;
+            var e = T.createElement(i);
+            var l = I.location;
+            e.async = true;
+            e.src = (L || c) + '/client/inject-v2.min.js';
+            h.insertBefore(e, h.firstChild);
+            I.iticks.call = function (a, b) {
+               I.iticks.queue.push([a, b]);
+            };
+         })(
+            window,
+            'https://cdn-v1.intelliticks.com/prod/common',
+            document,
+            'script',
+            'https://app.intelliticks.com',
+            '8Y2H6pJ3AbbaTTcsp_c',
+            {}
+         );
+      </script>
    </body>
 </html>
