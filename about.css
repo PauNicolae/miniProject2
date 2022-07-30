@@ -137,11 +137,9 @@ footer{
 
   #about-section{
     padding: 15px;
-    margin-left: 10px;
-    border: solid 1px;
-    
+    border: solid 1px;  
   }
-  #h1-trainers{
+  #h2-trainers{
     margin-bottom: 10px;
   }
   p{
