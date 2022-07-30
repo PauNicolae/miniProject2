@@ -143,10 +143,10 @@ footer{
   align-content: center;
 }
 .btn-classes{
-  background-color: #ED213A;
+  background-color: #D71619;
   border: none;
   color: white;
-  padding: 5px 30px;
+  padding: .5rem 2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
