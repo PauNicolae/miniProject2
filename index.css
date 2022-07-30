@@ -202,8 +202,10 @@ hr{
     align-items: center;
     text-align: center;
     width: 20rem;
-    height: 33rem;
-    margin: auto
+    height: 33.5rem;
+    margin: auto;
+    filter: brightness(90%);
+   
 }
 
 #card:hover{
@@ -281,7 +283,7 @@ footer{
  padding-top: 5rem;
  padding-bottom: 5rem;
  padding-left: 13rem;
- padding-right: 13rem;
+ padding-right: 12rem;
 }
 
 #footerLinks{

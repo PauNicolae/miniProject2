@@ -154,6 +154,11 @@ footer{
   
 }
 
+.btn-classes:hover{
+  color: white;
+  filter: brightness(80%);
+}
+
 #hr-classes{
   width: 100%;
 }
