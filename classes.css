@@ -165,3 +165,7 @@ footer{
 min-height: 24rem;
 max-height: 24rem;
 }
+
+div.card-body{
+padding-right: 3rem;
+}
