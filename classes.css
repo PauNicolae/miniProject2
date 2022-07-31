@@ -130,8 +130,6 @@ footer{
 
 
 #card-box{
-
- 
   border:0.5px solid black ;
 }
 
@@ -143,10 +141,10 @@ footer{
   align-content: center;
 }
 .btn-classes{
-  background-color: #ED213A;
+  background-color: #D71619;
   border: none;
   color: white;
-  padding: 5px 30px;
+  padding: .5rem 2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -161,4 +159,13 @@ footer{
 
 #hr-classes{
   width: 100%;
+}
+
+#img{
+min-height: 24rem;
+max-height: 24rem;
+}
+
+div.card-body{
+padding-right: 3rem;
 }

@@ -12,6 +12,7 @@
       <link rel="shortcut icon" href="photos/no limit favicon.png" type="image/x-icon">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link rel="stylesheet" href="navFooter.css" />
+      <link rel="stylesheet" href="shopLink.css">
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -28,56 +29,6 @@
 
       <title>Mini Project 2</title>
 
-      <style>
-         .btn2 {
-            background: black;
-            border: 1px solid black;
-            width: 100%;
-            padding: 6px;
-            border-radius: 5px;
-            font-size: medium;
-            color: white;
-         }
-
-         .btn2:hover {
-            border: 1px solid black;
-            width: 100%;
-            padding: 6px;
-            border-radius: 5px;
-            background: white;
-            font-size: medium;
-            color: black;
-         }
-
-         .btnAddToCart {
-            background: red;
-            border: 1px solid red;
-            width: 100%;
-            padding: 6px;
-            border-radius: 5px;
-            font-size: medium;
-            color: white;
-         }
-
-         .btnAddToCart:hover {
-            border: 1px solid black;
-            width: 100%;
-            padding: 6px;
-            border-radius: 5px;
-            background: white;
-            font-size: medium;
-            color: black;
-         }
-
-         .form-check-input {
-            background-color: black;
-         }
-
-         #exampleRadios1 {
-            background-color: black;
-            color: black;
-         }
-      </style>
    </head>
    <body id="body">
       <header>
@@ -182,6 +133,17 @@
             </div>
                <div class="col-md-6 col-lg-6 offset-.5 mt-5">
                   <div class="card border-light shadow-none">
+                     <div class="pagination" id="pagination">
+                        <li>
+                           <a href="shopMuscleTank.html" class="aPagination"
+                              >❮ Prev</a
+                           >
+                        </li>
+                        |
+                        <li>
+                           <a href="shopHoodie.html" class="aPagination">Next ❯</a>
+                        </li>
+                     </div>
                      <h2 class="text-dark">No Limit Legging</h2>
                      <p class="lead"></p>
                      <p class="lead fw-bold">$68.00</p>
@@ -240,9 +202,9 @@
   class="text-lg-start text-white mt-5"
   style="background-color: #141414"
 >
-  <div class="row">
-     <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
-        <div class="navbar-brand">
+<div class="row" id="footer-row">
+   <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+      <div class="navbar-brand" id="footer-brand">
            <h2>
               <sub><em>NO</em></sub
               ><sup><em>LIMIT</em></sup>

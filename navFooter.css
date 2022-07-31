@@ -147,6 +147,15 @@ footer{
     padding-right: 3rem;
   }
    
+  #footer-row{
+    display: flex;
+    text-align: center;
+  }
+  
+  #footer-brand{
+    display: flex;
+    justify-content: center;
+  }
     }
    
     @media screen and (min-width: 481px) and (max-width:575px){
@@ -160,6 +169,16 @@ footer{
   footer{
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  #footer-row{
+    display: flex;
+    text-align: center;
+  }
+  
+  #footer-brand{
+    display: flex;
+    justify-content: center;
   }
   
     }
