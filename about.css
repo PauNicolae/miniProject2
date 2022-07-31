@@ -146,6 +146,11 @@ footer{
     font-size: 14px; 
   }
 
+#col-border{
+  border: solid 1px;
+}
+
+
 
 
   
