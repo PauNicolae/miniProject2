@@ -92,8 +92,6 @@ hr{
     font-family: 'Roboto Slab', serif;
   }
   
-  .subtitle{
-  }
 
 
 .box{
@@ -142,9 +140,7 @@ footer{
   #h2-trainers{
     margin-bottom: 10px;
   }
-  p{
-    font-size: 14px; 
-  }
+
 
 #col-border{
   border: solid 1px;
