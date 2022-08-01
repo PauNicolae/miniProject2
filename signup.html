@@ -117,59 +117,50 @@
                   </ul>
                </div>
             </nav>
-         </header>
-
+</header>
             <!-- Hero Banner Section -->
-            <section
-               class="hero-banner col-sm col-md col-xl col-xxl" id="hero-banner">
-<div class="container">
-                  <div class="container">
-                     <div class="row" id="login">
-                        <div class="col-sm">
-
-                           <form class="modal-content animate" action="/action_page.php" method="post">
-                              <div class="imgcontainer">
-                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                                
-                              </div>
-                          
-                              <div class="container">
-                                <label for="uname"><b>Username</b></label>
-                                <input type="text" placeholder="Enter Username" name="uname" required>
-                          
-                                <label for="psw"><b>Password</b></label>
-                                <input type="password" placeholder="Enter Password" name="psw" required>
-                                  
-                                <button type="submit" class="btn rounded" id="btn">Login</button>
-                                <label>
-                                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                                </label>
-                              </div>
-                          
-                              <div class="container">
-                               <div class="row">
-                                <span class="psw"> <a href="#">Forgot Password?</a></span>
-                                <br>
-                                <span class="psw">Don't have an account?<a href="#">Sign up</a></span>
-                              </div>
-                           </div>
-                        </div>
-                              <div class="col-sm"></div>
-                        <div class="col-sm"></div>
-                        
-                        
-                   
-                  </div>      
-
-
-
-</div>
-                  </div>
-               </div>
-         </section>
-            
-
-
+        <!-- box -->
+<section>
+   <div class="container mt-3">
+     <div class="row">
+       <div class="col-md-6 offset-md-3">
+         <div class="signup-form">
+           <form action="" class="mt-5 border p-4 bg-light shadow">
+             <h1>Sign Up</h1>
+             <h4 class="mb-3">Create Your Account</h4>
+             <div class="row">
+ 
+             <div class="mb-3 col-md-6">
+               <label>First Name <span class="text-danger">*</span></label>
+               <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
+             </div>
+ 
+             <div class="mb-3 col-md-6">
+               <label>Last Name<span class="text-danger">*</span></label>
+               <input type="text" name="lname" class="form-control" placeholder="Enter Last Name">
+             </div>
+ 
+             <div class="mb-3 col-md-12">
+               <label>Password Name<span class="text-danger">*</span></label>
+               <input type="password" name="password" class="form-control" placeholder="Enter Password">
+             </div>
+ 
+             <div class="mb-3 col-md-12">
+               <label>Confirm Password<span class="text-danger">*</span></label>
+               <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
+             </div>
+           
+           <div class="mb-3 col-md-12">
+             <button id="btn" class="btn float-end">Signup Now</button>
+           </div>
+             </div>
+           </form>
+           <p class="m-5 text-center ">If you have an account, Please <a href="login.html" class="login"> Login</a></p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
 
         
 
