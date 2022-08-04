@@ -124,7 +124,8 @@ footer{
   }
   
 .box{
-  border-style: solid;
+  border: solid 1px grey;
+  border-radius: 8px;
   border-width: 1px;
   margin-top: 2rem;
   margin-bottom: 5rem;

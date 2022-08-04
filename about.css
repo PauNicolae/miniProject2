@@ -141,10 +141,13 @@ footer{
 
 
 #col-border{
-  border: solid 1px;
+  border: solid 1px grey;
 }
 
 
-
+div.card-body{
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
 
   
