@@ -10,7 +10,9 @@
    font-family: 'Lato', sans-serif;
 }
 
-
+.main-container{
+  overflow-x: hidden;
+}
 
 /* hero page */
 .hero-banner{
