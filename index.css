@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@100;200;300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
 
 
 * {
@@ -7,7 +7,8 @@
 }
 
 #body {
-   font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
 }
 
 .main-container{
@@ -299,6 +300,7 @@ footer{
     color: white;
     font-family: 'Lato', sans-serif;
     border: none;
+    border-radius: 5px;
   }
 
   .subscribe-btn:hover{

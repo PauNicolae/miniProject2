@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@100;200;300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
 
 
 * {
@@ -7,7 +7,8 @@
 }
 
 #body {
-   font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
 }
 
 /* navbar */
@@ -111,34 +112,39 @@ hr{
 }
 
 
+.product-title{
+  color: #D71619;
+}
+
 /* footer */
 footer{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1rem;
-    letter-spacing: 1.3px;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 13rem;
-    padding-right: 13rem;
-   }
-   
-   #footerLinks{
-       color: white;
-     }
-     #footerLinks:hover{
-       filter: brightness(80%);
-     }
-   
-     .subscribe-btn{
-       background-color: #D71619;
-       padding: .5rem 2rem;
-       color: white;
-       font-family: 'Lato', sans-serif;
-     }
-   
-     .subscribe-btn:hover{
-       filter: brightness(80%);
-     }
-   
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
 
   

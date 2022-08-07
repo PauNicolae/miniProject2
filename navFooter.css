@@ -102,35 +102,36 @@ hr{
 
 
 
+/* footer */
 footer{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1rem;
- letter-spacing: 1.3px;
- padding-top: 5rem;
- padding-bottom: 5rem;
- padding-left: 13rem;
- padding-right: 13rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
 }
 
 #footerLinks{
-    color: white;
-  }
-  #footerLinks:hover{
-    filter: brightness(80%);
-  }
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
 
-  .subscribe-btn{
-    background-color: #D71619;
-    padding: .5rem 2rem;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    border: none;
-  }
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
 
-  .subscribe-btn:hover{
-    filter: brightness(80%);
-    color: white;
-  }
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
 
 
   @media screen and (max-width: 480px){
