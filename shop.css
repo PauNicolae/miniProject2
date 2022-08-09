@@ -93,11 +93,14 @@ hr{
 #apparel-img{
     width: 200px;
     height: 302x;
+   
 }
 
 #apparel-img:hover {
-    filter: brightness(80%);
-    transition-delay: 0.1s;
+    filter: brightness(70%);
+    transition: 0.6s ease-in;
+    
+    
 }
 
 hr{
