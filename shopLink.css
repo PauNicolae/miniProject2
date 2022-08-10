@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
 
-
 * {
    margin: 0;
    padding: 0;
@@ -12,66 +11,124 @@
 }
 
 .btn2 {
-    background: black;
-    border: 1px solid black;
-    width: 100%;
-    padding: 6px;
-    border-radius: 5px;
-    font-size: medium;
-    color: white;
- }
+   background: black;
+   border: 1px solid black;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   font-size: medium;
+   color: white;
+}
 
- .btn2:hover {
-    border: 1px solid black;
-    width: 100%;
-    padding: 6px;
-    border-radius: 5px;
-    background: white;
-    font-size: medium;
-    color: black;
- }
+.btn2:hover {
+   border: 1px solid black;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   background: white;
+   font-size: medium;
+   color: black;
+}
 
- .btnAddToCart {
-    background:  #D71619;
-    border: 1px solid  #D71619;
-    width: 100%;
-    padding: 6px;
-    border-radius: 5px;
-    font-size: medium;
-    color: white;
- }
+.btnAddToCart {
+   background: #d71619;
+   border: 1px solid #d71619;
+   width: 100%;
+   padding: 6px;
+   border-radius: 5px;
+   font-size: medium;
+   color: white;
+}
 
- .btnAddToCart:hover {
+.btnAddToCart:hover {
    filter: brightness(80%);
- }
+}
 
- .form-check-input {
-    background-color: black;
- }
+.form-check-input {
+   background-color: black;
+}
 
- #exampleRadios1 {
-    background-color: black;
-    color: black;
- }
+#exampleRadios1 {
+   background-color: black;
+   color: black;
+}
 
- div.pagination {
-    display: flex;
-    justify-content: flex-end;
- }
+div.pagination {
+   display: flex;
+   justify-content: flex-end;
+}
 
- .disabled{
-    pointer-events: none;
- }
+.disabled {
+   pointer-events: none;
+}
 
- .dPagination{
-    color: grey;
- }
+.dPagination {
+   color: grey;
+}
 
+.aPagination {
+   color: black;
+}
 
- .aPagination{
-    color:black;
- }
+.aPagination:hover {
+   color: #d71619;
+}
 
- .aPagination:hover{
-    color:#D71619;
- }
+/* media query */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+   #details {
+   }
+
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   #details {
+      font-size: 0.6rem;
+   }
+
+   .btnAddToCart {
+      background: #d71619;
+      border: 1px solid #d71619;
+      width: 100%;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: smaller;
+      color: white;
+   }
+
+   .form-select{
+      height: 2rem;
+      font-size: .5rem;
+   }
+
+   div.card.border{
+      margin-top: 5rem;
+   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   #details {
+      font-size: .7rem;
+   }
+
+   .btnAddToCart {
+      background: #d71619;
+      border: 1px solid #d71619;
+      width: 100%;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: smaller;
+      color: white;
+   }
+
+   .form-select{
+      height: 2rem;
+      font-size: .5rem;
+   }
+
+   div.card.border{
+      margin-top: 1rem;
+   }
+}
+
