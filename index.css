@@ -106,7 +106,7 @@
 }
 
 .active-nav ul li a{
-  color:black;
+  color:#333333;
 }
 .active-nav .navbar-brand sub{
   color:#333333;
@@ -115,6 +115,11 @@
 .active-nav .navbar-brand sup{
   color:#333333;
 }
+
+.active-nav .navbar-toggler{
+  color:#333333;
+}
+
 
 .active-nav .nav-links a:hover{
   color: #D71619;
