@@ -20,11 +20,12 @@
 .navbar-brand h2{
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
+  color: white;
 }
 
 .navbar{
     /* background-color: rgba(0, 0, 0, 0.5); */
- background-color: transparent; 
+ /* background-color: transparent;  */
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
@@ -56,9 +57,9 @@
   text-decoration: none;
 }
 
-.changeColor{
-  background-color:  rgba(0, 0, 0, 0.5);
-}
+
+
+
 
 .nav-item{
   color: white;
@@ -86,11 +87,38 @@
   color: white;
 }
 
+/* .changeColor{
+  background-color: rgba(255, 255, 255, 0.8); 
+}
 
+.navbar ul li a.changeTextColor{
+  color: black;
+}
+
+.navbarBrandChangeColor{
+  color:black;
+} */
 /* for javascript scroll*/
-.changeColor{
-    background-color:  rgba(0, 0, 0, 0.5);
-  }
+.active-nav{
+  background-color: rgba(253, 253, 253, 0.9);
+  /* background-color: #fff; */
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.8);
+}
+
+.active-nav ul li a{
+  color:black;
+}
+.active-nav .navbar-brand sub{
+  color:black;
+}
+
+.active-nav .navbar-brand sup{
+  color:black;
+}
+
+.active-nav .nav-links a:hover{
+  color: #D71619;
+}
 /* for javascript scroll*/
 
 
@@ -182,9 +210,6 @@ hr{
   font-family: 'Roboto Slab', serif;
 }
 
-.subtitle{
-    /* font-size: 1.2rem; */
-}
 
 #box {
     margin: auto;
