@@ -109,11 +109,11 @@
   color:black;
 }
 .active-nav .navbar-brand sub{
-  color:black;
+  color:#333333;
 }
 
 .active-nav .navbar-brand sup{
-  color:black;
+  color:#333333;
 }
 
 .active-nav .nav-links a:hover{
