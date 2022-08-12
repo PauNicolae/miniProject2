@@ -13,26 +13,25 @@
 
 /* navbar */
 .navbar-brand h2{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:#333333;
 }
-
 
 
 
 .navbar{
-    /* background-color: rgba(0, 0, 0, 0.5); */
-/* background-color: transparent;  */
+ /* background-color: rgba(0, 0, 0, 0.5); */
+ background-color: rgba(253, 253, 253, 0.9);
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
  padding-left: 13rem;
- padding-right:12rem;
-
+ padding-right: 12rem;
 }
 
 .navbar ul li a{
-  color: white;
+  color:#333333;
   margin: 4px;
 }
 
@@ -53,9 +52,6 @@
   text-decoration: none;
 }
 
-.changeColor{
-  background-color:  rgba(0, 0, 0, 0.5);
-}
 
 .nav-item{
   color: white;
@@ -102,6 +98,12 @@ padding-left: 13rem;
 padding-right: 12rem;
 }
 
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+
 #footerLinks{
   color: white;
 }
@@ -121,9 +123,7 @@ padding-right: 12rem;
 .subscribe-btn:hover{
   filter: brightness(80%);
 }
-  .navbar{
-    background-color:  rgba(0, 0, 0, 0.5); 
-  }
+ 
   
 .box{
   border: solid 1px grey;
