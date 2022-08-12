@@ -168,6 +168,10 @@ hr{
   min-height:25rem;
 }
 
+div.card-body{
+  background-color: #f1f1f1;
+}
+
 .card-title{
   height: 3rem;
 }
