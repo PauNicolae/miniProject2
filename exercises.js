@@ -24,6 +24,8 @@ const fetchData = async (url) => {
 
 const getPrevPage = function() {
    counterPerPage--;
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
    fetchData(previousPage)
 }
 const getNextPage = function() {
