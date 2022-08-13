@@ -1,5 +1,7 @@
-const url = 'https://wger.de/api/v2/exerciseinfo?limit=350';
+const url = 'https://wger.de/api/v2/exerciseinfo?limit=50';
 const subContainer = document.querySelector('.subContainer');
+let counterPerPage = [1];
+let currentPage, nextPage, previousPage = "";
 
 let data = [];
 //user input should show data
@@ -13,17 +15,32 @@ searchBox.addEventListener('keyup', (e) => {
    console.log(filteredData);
 });
 
-const fetchData = async () => {
+const fetchData = async (url) => {
    const response = await fetch(url);
    data = await response.json();
-   displayData(data.results);
+   displayData(data);
    // console.log(data);
 };
 
+const getPrevPage = function() {
+   counterPerPage--;
+   fetchData(previousPage)
+}
+const getNextPage = function() {
+   counterPerPage++;
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(nextPage)
+}
+
 const displayData = (exercises) => {
    let htmlString = '';
-   exercises.map((item) => {
-      // console.log(item);
+
+   nextPage = exercises.next;
+   previousPage = exercises.previous;
+
+   exercises.results.map((item, i) => {
+      // alert(i);
       let lang = item.language.short_name;
       if (lang == 'en') {
          // new inserted code
@@ -44,4 +61,4 @@ const displayData = (exercises) => {
 
    subContainer.innerHTML = htmlString;
 };
-fetchData();
+fetchData(url);

@@ -178,7 +178,12 @@ max-height: 35rem;
 /* media query */
 @media screen and (min-width: 576px) and (max-width:767px){
   div.card-body{
+    
     font-size: .5rem;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+
   }
  
   
@@ -189,18 +194,21 @@ max-height: 35rem;
 
     div.card-body{
       font-size: .7rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
     }
  
   
    }
   
-  
-  
-  
-  
+   
    @media screen and (min-width: 992px) and (max-width: 1199px){
     div.card-body{
       font-size: .8rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
     }
 
   }
@@ -209,6 +217,9 @@ max-height: 35rem;
   @media screen and (min-width: 1200px) and (max-width:1279px){
     div.card-body{
       font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
     }
 
  
@@ -219,7 +230,11 @@ max-height: 35rem;
    @media screen and (min-width: 1280px) and (max-width:1360px){
     div.card-body{
       font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
     }
+
 
     
   
@@ -228,6 +243,9 @@ max-height: 35rem;
    @media screen and (min-width: 1361px) and (max-width:1600px){
     div.card-body{
       font-size: .9rem;
+      image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
     }
   
   

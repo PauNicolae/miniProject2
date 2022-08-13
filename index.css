@@ -140,7 +140,9 @@
 
 #btn:hover{
     filter: brightness(80%);
-}
+  
+    
+        }
 
 
 /* .hero-banner .btn:before {
