@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@100;200;300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
 
 
 * {
@@ -7,7 +7,76 @@
 }
 
 #body {
-   font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
 }
 
 
