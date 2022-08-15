@@ -84,8 +84,9 @@ const displayData = (exercises) => {
    nextPage = exercises.next;
    previousPage = exercises.previous;
 
-   exercises.results.map((item, i) => {
-      // alert(i);
+ 
+      exercises.map((item) => {
+     
       let lang = item.language.short_name;
       if (lang == 'en') {
          // new inserted code
