@@ -179,6 +179,7 @@ padding-right: 12rem;
 #img{
 min-height: 24rem;
 max-height: 24rem;
+width: 100%;
 }
 
 div.card-body{
