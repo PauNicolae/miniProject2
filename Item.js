@@ -4,13 +4,19 @@ const url = `https://62f7c3d7ab9f1f8e8902fb45.mockapi.io/api/v1/exercise_items/$
 const subContainer = document.querySelector('.subContainer');
 let data = [];
 let next = parseInt(product) + 1;
+let prev = parseInt(product) - 1;
 //user input should show data
 
 
 const fetchData = async () => {
-   const response = await fetch(url);
-   data = await response.json();    
-   displayData(data);
+   let paulene = await fetch(url);
+
+   if (paulene.status === 200) {
+      data = await paulene.json();    
+      displayData(data);
+      return false;
+   }
+   window.history.back()
 };
 
 const displayData = (item) => {
@@ -36,7 +42,7 @@ const displayData = (item) => {
                   <div class="card border-light shadow-none">
                      <div class="pagination" id="pagination">
                         <li>
-                           <a href="shopLegging.html" class="aPagination"
+                           <a href="item.html?product=${prev}" class="aPagination"
                               >❮ Prev</a
                            >
                         </li>
