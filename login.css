@@ -15,12 +15,11 @@
 .navbar-brand h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
-    color:#333333;
+    color:white;
 }
 
 .navbar{
- /* background-color: rgba(0, 0, 0, 0.5); */
- background-color: rgba(253, 253, 253, 0.9);
+  background-color:  rgba(0, 0, 0, 0.5);
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
@@ -29,8 +28,55 @@
 }
 
 .navbar ul li a{
-  color:#333333;
+  color:white;
   margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
 }
 
 
@@ -47,7 +93,7 @@
     background-position: center;
     opacity: 0.;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     padding-top: 30rem;
     padding-bottom: 15rem;
     padding-left: 13rem;
@@ -189,4 +235,21 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+
+.login-btn{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 5px;
+}
+
+
+div.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }

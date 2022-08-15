@@ -15,14 +15,11 @@
 .navbar-brand h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
-    color:#333333;
+    color:white;
 }
 
-
-
 .navbar{
- /* background-color: rgba(0, 0, 0, 0.5); */
- background-color: rgba(253, 253, 253, 0.9);
+  background-color:  rgba(0, 0, 0, 0.5);
  font-family: 'Bebas Neue', cursive;
  font-size: 1.2rem;
  letter-spacing: 1.3px;
@@ -31,7 +28,7 @@
 }
 
 .navbar ul li a{
-  color:#333333;
+  color:white;
   margin: 4px;
 }
 
@@ -52,14 +49,14 @@
   text-decoration: none;
 }
 
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
 
 .nav-item{
   color: white;
 }
 
-/* .navbar ul li a.changeTextColor{
-  color: rgb(105, 95, 95);
-} */
 
 .nav-link{
   text-decoration: none;
@@ -79,7 +76,7 @@
 }
 
 .navbar-toggler{
-  color: white;
+  color:white;
 }
 
 
