@@ -41,6 +41,12 @@ const displayData = (item) => {
                <div class="col-md-6 col-lg-6 offset-.5 mt-5" id="details">
                   <div class="card border-light shadow-none">
                      <div class="pagination" id="pagination">
+                     <a href=""
+                        ><span
+                           class="iconify-inline"
+                           data-icon="ant-design:shopping-cart-outlined"
+                        ></span>
+                     </a>
                         <li>
                            <a href="item.html?product=${prev}" class="aPagination"
                               >❮ Prev</a
