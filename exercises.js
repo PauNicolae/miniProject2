@@ -1,7 +1,12 @@
-const url = 'https://wger.de/api/v2/exerciseinfo?limit=50';
+const url = 'https://wger.de/api/v2/exerciseinfo?limit=350';
+const secondUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=100';
+const thirdUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=150";
+const fourthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=200";
+const fifthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=250";
+const sixthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=350";
 const subContainer = document.querySelector('.subContainer');
 let counterPerPage = [1];
-let currentPage, nextPage, previousPage = "";
+let currentPage, nextPage, previousPage, firstPage, secondPage, thirdPage, fourthPage, fifthPage, sixthPage, seventhPage = "";
 
 let data = [];
 //user input should show data
@@ -21,6 +26,44 @@ const fetchData = async (url) => {
    displayData(data);
    // console.log(data);
 };
+
+const getFirstPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(url)
+}
+
+const getSecondPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(secondUrl)
+}
+
+const getThirdPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(thirdUrl)
+}
+
+const getFourthPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(fourthUrl)
+}
+
+const getFifthPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(fifthUrl)
+}
+
+const getSixthPage = function() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   fetchData(sixthUrl)
+}
+
+
 
 const getPrevPage = function() {
    counterPerPage--;
