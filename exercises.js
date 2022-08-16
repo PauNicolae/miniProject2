@@ -1,12 +1,21 @@
 const url = 'https://wger.de/api/v2/exerciseinfo?limit=350';
 const secondUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=100';
-const thirdUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=150";
-const fourthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=200";
-const fifthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=250";
-const sixthUrl = "https://wger.de/api/v2/exerciseinfo/?limit=50&offset=350";
+const thirdUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=150';
+const fourthUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=200';
+const fifthUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=250';
+const sixthUrl = 'https://wger.de/api/v2/exerciseinfo/?limit=50&offset=350';
 const subContainer = document.querySelector('.subContainer');
 let counterPerPage = [1];
-let currentPage, nextPage, previousPage, firstPage, secondPage, thirdPage, fourthPage, fifthPage, sixthPage, seventhPage = "";
+let currentPage,
+   nextPage,
+   previousPage,
+   firstPage,
+   secondPage,
+   thirdPage,
+   fourthPage,
+   fifthPage,
+   sixthPage,
+   seventhPage = '';
 
 let data = [];
 //user input should show data
@@ -16,80 +25,75 @@ searchBox.addEventListener('keyup', (e) => {
    const filteredData = data.results.filter((item) => {
       return item.name.toLowerCase().includes(searchTerm);
    });
+   console.log(data);
    displayData(filteredData);
-   console.log(filteredData);
 });
 
 const fetchData = async (url) => {
    const response = await fetch(url);
    data = await response.json();
-   displayData(data);
-   // console.log(data);
+   displayData(data.results);
 };
 
-const getFirstPage = function() {
+const getFirstPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(url)
-}
+   fetchData(url);
+};
 
-const getSecondPage = function() {
+const getSecondPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(secondUrl)
-}
+   fetchData(secondUrl);
+};
 
-const getThirdPage = function() {
+const getThirdPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(thirdUrl)
-}
+   fetchData(thirdUrl);
+};
 
-const getFourthPage = function() {
+const getFourthPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(fourthUrl)
-}
+   fetchData(fourthUrl);
+};
 
-const getFifthPage = function() {
+const getFifthPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(fifthUrl)
-}
+   fetchData(fifthUrl);
+};
 
-const getSixthPage = function() {
+const getSixthPage = function () {
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(sixthUrl)
-}
+   fetchData(sixthUrl);
+};
 
-
-
-const getPrevPage = function() {
+const getPrevPage = function () {
    counterPerPage--;
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(previousPage)
-}
-const getNextPage = function() {
+   fetchData(previousPage);
+};
+const getNextPage = function () {
    counterPerPage++;
    document.body.scrollTop = 0;
    document.documentElement.scrollTop = 0;
-   fetchData(nextPage)
-}
+   console.log(data.next);
+   fetchData(nextPage);
+};
 
 const displayData = (exercises) => {
    let htmlString = '';
 
-   nextPage = exercises.next;
-   previousPage = exercises.previous;
+   nextPage = data.next;
+   previousPage = data.previous;
 
- 
-      exercises.map((item) => {
-     
+   exercises.map((item) => {
       let lang = item.language.short_name;
       if (lang == 'en') {
-         // new inserted code
          let imageShow = item.images;
          let bedyow = item.videos;
          if (imageShow.length) {
@@ -98,10 +102,9 @@ const displayData = (exercises) => {
             <h5>${item.category.name}</h5>
             <p>${item.description}</p>
             ${item.images.map((el) => {
-               // console.log(el.image)
                return `<img class="exercisesImages" src="${el.image}"/>`;
             })}`;
-         } // end
+         }
       }
    });
 
