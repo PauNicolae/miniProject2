@@ -12,9 +12,9 @@ const fetchData = async () => {
    console.log(data);
 };
 
-const displayData = (exercises) => {
+const displayData = (blogs) => {
    let htmlString = '';
-   exercises.map((item) => {
+  blogs.map((item) => {
       // console.log(item);
       
      
@@ -24,12 +24,14 @@ const displayData = (exercises) => {
             <div class="col-sm text-center">
                   <a href="item.html?product=${item.id}"
                      ><img
-                        class="img-fluid"
+                        class="images"
+                        height="300px"
+                        width="400px"
                         src="${item.avatar}"
                         id="apparel-img"
                         alt=""
                   /></a>
-                  <p class="product-title mt-3">${item.name}</p>
+                  <p class="product-title mt-3"><strong>${item.name}</strong></p>
                   <p>${item.description}</p>
                </div>
                `;
