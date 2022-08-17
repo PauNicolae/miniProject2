@@ -100,24 +100,24 @@
 } */
 /* for javascript scroll*/
 .active-nav{
-  background-color: rgba(253, 253, 253, 0.9);
+  background-color:  rgba(0, 0, 0, 0.5);
   /* background-color: #fff; */
   box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.8);
 }
 
 .active-nav ul li a{
-  color:#333333;
+  color: #fff;
 }
 .active-nav .navbar-brand sub{
-  color:#333333;
+  color:#fff;
 }
 
 .active-nav .navbar-brand sup{
-  color:#333333;
+  color:#fff;
 }
 
 .active-nav .navbar-toggler{
-  color:#333333;
+  color:#fff;
 }
 
 
