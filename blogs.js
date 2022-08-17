@@ -4,6 +4,7 @@ const subContainer = document.querySelector('.subContainer');
 let data = [];
 //user input should show data
 
+
 const fetchData = async () => {
    const response = await fetch(url);
    data = await response.json();
@@ -13,12 +14,13 @@ const fetchData = async () => {
 
 const displayData = (blogs) => {
    let htmlString = '';
-   blogs.map((item) => {
+  blogs.map((item) => {
       // console.log(item);
-
-      // new inserted code
-
-      htmlString += `
+      
+     
+         // new inserted code
+        
+            htmlString += `
             <div class="col-sm text-center">
                   <a href="blogChoose.html"
                      ><img
@@ -33,6 +35,8 @@ const displayData = (blogs) => {
                   <p>${item.description}</p>
                </div>
                `;
+        
+      
    });
 
    subContainer.innerHTML = htmlString;
