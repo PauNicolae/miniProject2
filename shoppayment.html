@@ -28,7 +28,7 @@
          href="photos/no limit favicon.png"
          type="image/x-icon"
       />
-      <link rel="stylesheet" href="yourcart.css" />
+      <link rel="stylesheet" href="shoppayment.css" />
 
       <link rel="stylesheet" href="navFooterMediaQuery.css" />
       <title>Mini Project 2</title>
@@ -117,70 +117,94 @@
          </nav>
       </header>
 
-      <div class="container pt-5">
-         <h2 class="text-center mt-5 mb-5 pt-5" id="h1-price">Your Cart</h2>
+      <div class="container-fluid pt-5">
+         <h2 class="text-center mt-5 mb-5 pt-5" id="h1-price">Payment</h2>
          <hr />
-        
-         
-         <div class="table-responsive mt-5">
-            <table class="table table-hover" id="order">
-  <thead class="table-dark">
-    <tr>
-      <th scope="col">PRODUCT</th>   
-      <th scope="col">PRICE</th>
-      <th scope="col">QUANTITY</th>
-      <th scope="col">TOTAL</th>
-      <th scope="col">STATUS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Sports Bra</th>
-      <td>300 php</td>
-      <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
-      <td>300 php</td>
-      <td><a href="#">Remove</a></td>
+        <div class="row text-center mt-5">
+            
+            <div class="col-sm-6 border">
 
-    </tr>
-    <tr>
-      <th scope="row">Hoodie</th>
-      <td>400 php</td>
-      <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
-      <td>400 php</td>
-      <td><a href="#">Remove</a></td>
-    </tr>
-    <tr>
-      <th scope="row">Leggings</th>
-      <td>150 php</td>
-      <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
-      <td>150 php</td>
-      <td><a href="#">Remove</a></td>
-    </tr>
-    <tr>
-      <th scope="row">Muscle Tank</th>
-      <td>250 php</td>
-      <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
-      <td>250 php</td>
-      <td><a href="#">Remove</a></td>
-    </tr>
-    <tr>
-      <th scope="row">Crop Tank</th>
-      <td>350 php</td>
-      <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
-      <td>350 php</td>
-      <td><a href="#">Remove</a></td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<div class="container">
-   <div class="row">
-      <div class="col-sm-2"><h5><strong>Sub Total</strong></h5></div>
-      <div class="col-sm"><p>1,450 php</p></div>
-   </div>
-   <div class="col-sm mb-5">Taxes and shipping calculated at checkout</div>
-   <button type="button" class="btn btn-danger">CHECK OUT</button>
-</div>
+                <form class="row g-3">
+                  <h6 class="mt-5">Contact Information</h6>
+                  <div class="col-md-6">
+                    
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+                  </div>
+                  <div class="col-md-6">
+                    
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                  </div>
+                  <div class="col-12">
+                     <input type="email" class="form-control" id="inputAddress2" placeholder="Email Address">
+                   </div>                
+                  <div class="col-12">
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Address">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Region</label>
+                    <select id="inputState" class="form-select" placeholder="Manila">
+                                   
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary mb-5">Continue to shipping</button>
+                  </div>
+                </form>
+
+             </div>
+
+            <div class="col-sm-6 border">
+
+
+               <div class="table-responsive mt-3">
+                  <table class="table table-hover" id="order">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">PRODUCT</th>   
+            <th scope="col">PRICE</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Sports Bra</th>
+            <td>300 php</td>   
+          </tr>
+          <tr>
+            <th scope="row">Hoodie</th>
+            <td>400 php</td>
+          </tr>
+          <tr>
+            <th scope="row">Leggings</th>
+            <td>150 php</td>
+          </tr>
+          <tr>
+            <th scope="row">Muscle Tank</th>
+            <td>250 php</td>
+          </tr>
+          <tr>
+            <th scope="row">Crop Tank</th>
+            <td>350 php</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <hr id="hr-payment">
+
+            </div>
+        </div>
+         
+         
+
 
 
       </div>
