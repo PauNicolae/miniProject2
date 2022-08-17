@@ -152,5 +152,24 @@ hr{
 #quantity{
   text-align: center;
 }
+.table td,.table th{
+  text-align: center;
+}
+
+@media screen and (max-width:520px){
+
+
+
+  td{
+    display:block;
+
+  }
+ .td:first-child{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    
+  }
+}
 
 
