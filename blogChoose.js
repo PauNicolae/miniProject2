@@ -54,14 +54,14 @@ const displayData = (item) => {
                 
                   <div class="pagination mt-3" id="pagination">
                      <li>
-                        <a href="#" class="aPagination"
+                        <a href="blogChoose.html?blog=${prev}" class="aPagination"
                            >❮ Prev</a
                         >
                      </li>
                      |
                      <li class="page-item">
                         <a
-                           href="#"
+                           href="blogChoose.html?blog=${next}"
                            class="aPagination"
                           
                            >Next ❯</a
