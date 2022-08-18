@@ -15,7 +15,6 @@ const fetchData = async () => {
 const displayData = (blogs) => {
    let htmlString = '';
    blogs.map((item) => {
-      // console.log(item);
 
       // new inserted code
 
@@ -24,7 +23,7 @@ const displayData = (blogs) => {
       <div class="container">
          <div class="box">
             <h2 class="title mb-5 mt-5 pt-5">
-             ${item.name}
+             ${item.title}
             </h2>
             <hr />
             <h5 class="subtitle mt-5">
@@ -74,3 +73,4 @@ const displayData = (blogs) => {
    subContainer.innerHTML = htmlString;
 };
 fetchData();
+
