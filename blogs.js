@@ -24,11 +24,11 @@ const displayData = (blogs) => {
                         class="images"
                         height="300px"
                         width="400px"
-                        src="${item.avatar}"
+                        src="${item.image}"
                         id="apparel-img"
                         alt=""
                   /></a>
-                  <p class="product-title mt-3"><strong>${item.name}</strong></p>
+                  <p class="product-title mt-3"><strong>${item.title}</strong></p>
                   <p>${item.description}</p>
                </div>
                `;
