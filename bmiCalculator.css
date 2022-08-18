@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#body {
+   /* font-family: 'Lato', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color:white;
+}
+
+.navbar{
+  background-color:  rgba(0, 0, 0, 0.5);
+ font-family: 'Bebas Neue', cursive;
+ font-size: 1.2rem;
+ letter-spacing: 1.3px;
+ padding-left: 13rem;
+ padding-right: 12rem;
+}
+
+.navbar ul li a{
+  color:white;
+  margin: 4px;
+}
+
+.navbar ul li a:hover{
+  color: red;
+}
+
+.navbar ul li a:hover::before{
+  color: red;
+}
+
+.navbar ul li a:hover::active{
+  color: red;
+}
+
+.navbar ul li a:hover::after{
+  color: red;
+  text-decoration: none;
+}
+
+
+.nav-item{
+  color: white;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.nav-link:hover::active{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover::after{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar-toggler{
+  color:white;
+}
+
+
+hr{
+    width: 13.9%;
+    margin: 0 auto!important;
+    display: block;
+    height: 12px;
+}
+
+
+.title{
+    font-family: 'Roboto Slab', serif;
+  }
+  
+
+  section{
+    height: 100vh;
+}
+
+span{
+    color: red;
+}
+
+.wrapper{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px - 10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid #D71619;
+    border-radius: 10px;
+    background-color: #D71619;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+letter-spacing: 1.3px;
+padding-top: 5rem;
+padding-bottom: 5rem;
+padding-left: 13rem;
+padding-right: 12rem;
+}
+
+.footer-brand h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+#footerLinks{
+  color: white;
+}
+#footerLinks:hover{
+  filter: brightness(80%);
+}
+
+.subscribe-btn{
+  background-color: #D71619;
+  padding: .5rem 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover{
+  filter: brightness(80%);
+}
+
+.product-title{
+    color: #D71619;
+  }
+
