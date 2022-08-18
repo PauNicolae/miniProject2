@@ -91,7 +91,7 @@ hr{
   
 
   section{
-    height: 100vh;
+    
 }
 
 span{
@@ -124,6 +124,20 @@ button{
     background-color: #D71619;
     margin-top: 10%;
     cursor: pointer;
+}
+
+div.card{
+position: absolute;
+width: 20rem;
+background-color: #f1f1f1;
+}
+
+div.box{
+  padding-top: 10rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
 }
 
 
