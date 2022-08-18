@@ -183,7 +183,7 @@ only screen and (max-width: 760px),
 		display: block; 
 	}
 	
-
+ 
 	thead tr { 
 		position: absolute;
 		top: -9999px;
@@ -217,6 +217,7 @@ only screen and (max-width: 760px),
     color: white;
     
   }
+
   
 }
 
@@ -224,7 +225,5 @@ only screen and (max-width: 760px),
   background-color:#D71619 ;
 }
 
-#hr-payment{
-  width: 100%;
-  margin-top: 5px;
-}
+
+
