@@ -219,3 +219,12 @@ only screen and (max-width: 760px),
   }
   
 }
+
+#shipping-btn{
+  background-color:#D71619 ;
+}
+
+#hr-payment{
+  width: 100%;
+  margin-top: 5px;
+}
