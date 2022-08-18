@@ -14,26 +14,28 @@ const displayData = (blogs) => {
    let htmlString = '';
    blogs.map((item) => {
       // console.log(item);
-
+      
       // new inserted code
 
       htmlString += `
             <div class="col-sm text-center">
-                  <a href="blogChoose.html"
+                  <a href="blogChoose.html?blog=${item.id}"
                      ><img
                         class="images"
                         height="300px"
                         width="400px"
-                        src="${item.avatar}"
+                        src="${item.image}"
                         id="apparel-img"
                         alt=""
                   /></a>
-                  <p class="product-title mt-3"><strong>${item.name}</strong></p>
-                  <p>${item.description}</p>
+                  <p class="product-title mt-3"><strong>${item.title}</strong></p>
+                  <p>${item.subtitle}</p>
                </div>
+               
                `;
-      console.log(item.id);
    });
+
+ 
 
    subContainer.innerHTML = htmlString;
 };
