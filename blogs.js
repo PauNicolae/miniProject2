@@ -40,3 +40,11 @@ const displayData = (blogs) => {
    subContainer.innerHTML = htmlString;
 };
 fetchData();
+
+
+
+
+
+
+
+
