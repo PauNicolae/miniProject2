@@ -13,6 +13,7 @@ if (localStorage.getItem("sum")) {
 if (localStorage.getItem("cart")) {
   cart = JSON.parse(localStorage.getItem("cart"));
 }
+// validation if data is empty from local storage
 
 const checkempt = function () {
   if (!Object.keys(cart).length) {
@@ -27,6 +28,7 @@ let tbody = document.getElementById("tbody");
 let total_price = 0;
 let total_quantity = 0;
 
+// represent data from local storage
 for (let id in cart) {
   let item = cart[id];
 
@@ -65,7 +67,7 @@ for (let id in cart) {
 
   let total_td = document.createElement("td");
   total_td.classList.add("class-" + item.id);
-  total_td.textContent = parseFloat(item.price) * parseInt(item.qty);
+  total_td.textContent = parseInt(parseFloat(item.price) * parseInt(item.qty)).toFixed(2);
   tr.appendChild(total_td);
 
   let option_td = document.createElement("td");
@@ -91,7 +93,7 @@ cell.innerHTML = `<div class="container">
     <h5><strong>Subtotal</strong></h5>
   </div>
   <div class="col col-lg-2 text-right">
-    <h4 id="total">$ ${total_price}</h4>
+    <h4 id="total">PHP ${total_price.toFixed(2)}</h4>
   </div>
 </div>
 <div class="row">
@@ -126,6 +128,7 @@ cel2.innerHTML = `<div class="col">
 >
 </div>`;
 
+// updating  cart
 const updatecart = function () {
   let options = document.querySelectorAll("#order select");
   let totalsub = 0;
@@ -165,8 +168,9 @@ const updatecart = function () {
 let updt = document.getElementById("updatecart");
 updt.addEventListener("click", updatecart);
 
+// delete button
 const confirmation = function (btn) {
-  var result = confirm("Are you sure to delete?");
+  var result = confirm("Are you sure you want to delete?");
   let item = btn.dataset.id;
   let row = btn.parentNode.parentNode;
 

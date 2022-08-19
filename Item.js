@@ -6,7 +6,7 @@ let data = [];
 let next = parseInt(product) + 1;
 let prev = parseInt(product) - 1;
 //user input should show data
-
+//fetching data
 const fetchData = async () => {
   let paulene = await fetch(url);
 
@@ -18,6 +18,7 @@ const fetchData = async () => {
   window.history.back();
 };
 
+// Options parameters: id for localstorage id, objects from api, target is for sizes/colors
 const options = function (id, objects, target) {
   let opt = "<option selected value='n_a'>Select</option>";
   for (const key in objects) {
@@ -69,7 +70,7 @@ const displayData = (item) => {
                      </div>
                      <h2 class="text-dark">${item.name}</h2>
                      <p class="lead"></p>
-                     <p class="lead fw-bold">$${item.price}</p>
+                     <p class="lead fw-bold">PHP ${item.price}</p>
                      <p>Size</p><select
                         class="form-select"
                         name="sizes"

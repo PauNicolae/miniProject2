@@ -359,9 +359,18 @@
     ></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <!-- <script src="index.js"></script> -->
+    
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"
+    ></script>
     <script src="countries.js"></script>
     <script src="order.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("kPjnHYK4WJes-ymmd"); //please encrypted user id for malicious attacks
+      })();
+    </script>
     <script type="text/javascript">
       (function (I, L, T, i, c, k, s) {
         if (I.iticks) return;

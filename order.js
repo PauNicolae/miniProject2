@@ -65,7 +65,7 @@ cell.innerHTML = `<span style="float:right;">Shipping costs</span>`;
 cell2.innerHTML = `<span id="shipping"></span>`;
 
 cell11.innerHTML = `<h5 style="text-align:right;"><strong>Subtotal</strong></h5>`;
-cell22.innerHTML = `<h4 id="total">$ ${total_price}</h4>`;
+cell22.innerHTML = `<h4 id="total">PHP ${total_price}</h4>`;
 
 const shippingfee = function (el) {
   let selected = el.options[el.selectedIndex].value;
@@ -142,17 +142,26 @@ const placeOrder = function () {
     shipping_address.value
   } \n\n Billing Address : ${same_shipp_billing}\n\n Orders : \n ${format_order} \n Total Price : ${total_quantity_order}`;
 
-  Email.send({
-    SecureToken: "db232d4b-3842-4e61-951b-c611407d1e97",
-    To: email_address.value,
-    From: "josephlesterbacs@gmail.com",
-    Subject: "No Limit Orders",
-    Body: `<html>${placeorder}</html>`,
-  }).then(function (message) {
-    alert(placeorder);
-    localStorage.clear();
-    location.href = "index.html";
-  });
+  
+  //set the parameter as per you template parameter[https://dashboard.emailjs.com/templates]
+  var templateParams = {
+    to_name: "Admin",
+    from_name: "No Limit Fitness",
+    message: `${placeorder}`,
+  };
+
+  emailjs.send("service_w09xyou", "template_9oqwaen", templateParams).then(
+    function (response) {
+      console.log("SUCCESS!", response.status, response.text);
+      alert(placeorder);
+      localStorage.clear();
+      location.href = "index.html";
+    },
+    function (error) {
+      console.log("FAILED...", error);
+    }
+  );
+ 
 };
 
 let sendorder = document.getElementById("placeorder");
