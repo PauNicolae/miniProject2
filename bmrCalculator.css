@@ -116,18 +116,15 @@ hr{
 
 
 
-span{
-    color: red;
-}
 
 
 
 
-button{
+  .calculate-btn{
     color: white;
     padding: 10px;
     border: 2px solid #D71619;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #D71619;
     margin-top: 10%;
     cursor: pointer;
@@ -237,7 +234,13 @@ div.container{
 }
 
 
-
+div.box {
+  margin-top: 5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
 
 
 

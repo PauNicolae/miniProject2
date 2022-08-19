@@ -176,16 +176,17 @@ input {
    color: #777;
 }
 
-button {
+.calculate-button {
    color: white;
    padding: 9px 24px;
-   border-radius: 10px;
+   border-radius: 5px;
    background-color: #d71619;
    margin-top: 10%;
    cursor: pointer;
    font-weight: 100;
    text-transform: uppercase;
    border: none;
+   width: 100%;
 }
 
 
