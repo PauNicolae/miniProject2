@@ -121,7 +121,8 @@ span {
 }
 
 .wrapper {
-   position: absolute;
+
+  gap: 4px;
    max-width: 400px;
    margin-top: 5rem;
    top: 45%;
@@ -133,11 +134,7 @@ span {
    border-radius: 5px;
 }
 
-.wrapper {
-   display: flex;
-   flex-direction: column;
-   gap: 4px;
-}
+
 
 input {
    outline: none;
