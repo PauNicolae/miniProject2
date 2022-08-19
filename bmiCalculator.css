@@ -120,14 +120,24 @@ span {
    color: red;
 }
 
-.wrapper {
 
+
+
+
+div.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+
+.wrapper {
   gap: 4px;
    max-width: 400px;
-   margin-top: 5rem;
-   top: 45%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   margin-top: 3rem;
    padding: 15px;
    background-color: #f1f1f1;
    border: 1px black solid;
@@ -162,7 +172,7 @@ input {
 .wrapper .unit {
    position: absolute;
    right: 20px;
-   top: 50px;
+   top: 40px;
    color: #777;
 }
 
@@ -178,14 +188,10 @@ button {
    border: none;
 }
 
-div.card {
-   position: absolute;
-   width: 20rem;
-   background-color: #f1f1f1;
-}
+
 
 div.box {
-   padding-top: 18rem;
+  margin-top: 5rem;
    display: flex;
    justify-content: center;
    align-items: center;
