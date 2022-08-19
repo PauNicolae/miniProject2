@@ -126,7 +126,7 @@ button{
     cursor: pointer;
 }
 
-div.card{
+/* div.card{
 position: absolute;
 width: 20rem;
 background-color: #f1f1f1;
@@ -138,7 +138,113 @@ div.box{
   justify-content:center;
   align-items: center;
   align-content: center;
+} */
+
+/* form{
+  
+    
+} */
+
+
+.bmr-calculator{
+    max-width: 300px;
+    padding: 8px 24px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+    border: 1px solid black;
 }
+
+.bmr-calculator,
+.bmr-calculator * {
+    box-sizing: border-box;
+}
+
+.bmr-calculator form h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px 0 10px 0;
+}
+
+
+.bmr-calculator form input[type="text"]{
+    width: 100%;
+    padding: 4px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #d5dbdd;
+}
+
+.bmr-calculator form input[type="text"].invalid{
+    border: 1px solid red;
+}
+
+
+
+.bmr-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bmr-calculator form #female{
+    margin-left: 20px;
+}
+
+.bmr-calculator form .height,
+.bmr-calculator form .weight {
+    position: relative;
+}
+
+.bmr-calculator form .unit {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: #777;
+}
+
+.bmr-calculator .result .calculate-btn{
+    padding: 8px 24px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.bmr-calculator .result {
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 1rem;
+}
+
+.bmr-calculator .result .calories{
+    color: #D71619;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bmr-calculator .result .error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.bmr-calculator .result .error-message.active{
+    display: block;
+}
+
 
 
 
