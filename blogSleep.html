@@ -10,6 +10,8 @@
          crossorigin="anonymous"
       />
       <link rel="stylesheet" href="blog.css" />
+      <link rel="stylesheet" href="navFooterMediaQuery.css">
+      <link rel="shortcut icon" href="photos/no limit favicon.png" type="image/x-icon">
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,112 +27,157 @@
       />
 
       <title>Mini Project 2</title>
+
+      <style>
+         p:nth-child(odd) {
+            font-weight: 600;
+         }
+      </style>
    </head>
    <body id="body">
       <header>
-         <!-- Navbar -->
-
-         <nav class="navbar navbar-expand-lg fixed-top shadow-none">
-            <div class="container">
-               <a href="index.html" class="navbar-brand text-light"
-                  > <h2>
-                     <sub><em>NO</em></sub
-                     ><sup><em>LIMIT</em></sup>
-                  </h2></a
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg fixed-top shadow-none">
+      <!-- <div class="container"> -->
+      <a href="index.html" class="navbar-brand"
+         ><h2 class="mt-2">
+            <sub><em>NO</em></sub
+            ><sup><em>LIMIT</em></sup>
+         </h2></a
+      >
+  
+      <button
+         class="navbar-toggler text-light"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navmenu"
+      >
+         <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+               <a
+                  href="index.html
+                 "
+                  class="nav-link"
+                  >HOME</a
                >
-
-               <button
-                  class="navbar-toggler text-light"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navmenu"
+            </li>
+            <li class="nav-item">
+              <a
+                 href="classes.html
+             "
+                 class="nav-link"
+                 >CLASSES</a
+              >
+           </li>
+           <li class="nav-item">
+              <a
+                 href="pricing.html
+           "
+                 class="nav-link"
+                 >PRICING</a
+              >
+           </li>
+            <li class="nav-item">
+               <a
+                  href="exercises.html
+               "
+                  class="nav-link"
+                  >EXERCISES</a
                >
-                  <i class="fa-solid fa-bars"></i>
-               </button>
-               <div class="collapse navbar-collapse" id="navmenu">
-                  <ul class="navbar-nav ms-auto">
-                     <li class="nav-item">
-                        <a
-                           href="index.html
-                       "
-                           class="nav-link"
-                           >HOME</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="exercises.html
-                     "
-                           class="nav-link"
-                           >EXERCISES</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="pricing.html
-                    "
-                           class="nav-link"
-                           >CLASSES</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="gifts.html
-                  "
-                           class="nav-link"
-                           >PRICING</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="shop.html
-                    "
-                           class="nav-link"
-                           >SHOP</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="about.html
-                    "
-                           class="nav-link"
-                           >ABOUT</a
-                        >
-                     </li>
-                     <li class="nav-item">
-                        <a
-                           href="logIn.html
-                    "
-                           class="nav-link"
-                           >LOGIN</a
-                        >
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </header>
+            </li>
+           
+            <li class="nav-item">
+              <a
+                 href="blogs.html
+             "
+                 class="nav-link"
+                 >BLOGS</a
+              >
+           </li>
+            <li class="nav-item dropdown">
+               <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+               >
+                  TOOLS
+               </a>
+               <ul class="dropdown-menu">
+                  <li>
+                     <a class="dropdown-item" href="bmiCalculator.html"
+                        >BMI CALCULATOR</a
+                     >
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="bmrCalculator.html"
+                        >CALORIE CALCULATOR</a
+                     >
+                  </li>
+               </ul>
+            </li>
+            <li class="nav-item">
+               <a
+                  href="shop.html
+             "
+                  class="nav-link"
+                  >SHOP</a
+               >
+            </li>
+            <li class="nav-item">
+               <a
+                  href="about.html
+              "
+                  class="nav-link"
+                  >ABOUT</a
+               >
+            </li>
+            <!-- <li class="nav-item">
+        <a
+          href="logIn.html
+           "
+          class="nav-link"
+          >LOGIN</a
+        >
+      </li> -->
+         </ul>
+      </div>
+   </nav>
+  </header>
 
       <section class="text-dark p-5 text-center">
          <div class="container">
-            <h1 class="title mb-5 mt-5 pt-5">
-               10 REASONS TO WORK OUT IN THE MORNING
-            </h1>
-            <hr />
-            <p class="subtitle mt-5">
-               From better skin to deeper sleep, starting your day with a good
-               exercise session has many positive effects on your health.
-            </p>
+            <div class="box">
+               <h2 class="title mb-5 mt-5 pt-5">
+                  REASONS TO WORK OUT IN THE MORNING
+               </h2>
+               <hr />
+               <h5 class="subtitle mt-5">
+                  From better skin to deeper sleep, starting your day with a
+                  good exercise session has many positive effects on your
+                  health.
+               </h5>
+            </div>
          </div>
       </section>
 
-      <!-- read -->
-      <section class="text dark mt-5">
+      <section class="text dark">
          <div class="container">
-            <div class="row gx-5">
-               <div class="col-xs col-sm col-md-6 col-lg-6 col-xl">
+            <div class="box">
+               <div class="col-xs col-sm col-md col-lg col-xl">
                   <div class="card border-light text-start shadow-none">
-                     <p class="text-dark">
+                     <div class="card border-light shadow-none">
+                        <img
+                           src="./photos/sleep-tile.jpg"
+                           class="img-fluid"
+                           alt="hoyeon jung"
+                        />
+                     </div>
+                     <p class="text-dark mt-5">
                         Turns out, it does make a difference when you start the
                         day with a good sweat session.
                      </p>
@@ -162,10 +209,7 @@
                         exercise routine or just generally better discipline in
                         seeing things through.
                      </p>
-                  </div>
-               </div>
-               <div class="col-xs col-sm col-md-6 col-lg-6 col-xl">
-                  <div class="card border-light text-start shadow-none">
+
                      <p>4. Improve Energy Levels</p>
                      <p>
                         Some have compared morning workouts to a cup of coffee
@@ -194,17 +238,6 @@
                         digestion, all of which adds up to lots of feel-good
                         moments.
                      </p>
-                  </div>
-               </div>
-               <div class="card border-light shadow-none">
-                  <img
-                     src="./photos/sleep-tile.jpg"
-                     class="img-fluid"
-                     alt="hoyeon jung"
-                  />
-               </div>
-               <div class="col-xs col-sm col-md-6 col-lg-6 col-xl mt-5">
-                  <div class="card border-light text-start shadow-none">
                      <p>7. Reduce Insulin Resistance</p>
                      <p>
                         Hypertension, diabetes, Alzheimer’s, heart disease –
@@ -227,11 +260,7 @@
                         pre-breakfast workout and you’ll be less tempted to
                         snack.
                      </p>
-                  </div>
-               </div>
 
-               <div class="col-xs col-sm col-md-6 col--6 col-xl mt-5">
-                  <div class="card border-light text-start shadow-none">
                      <p>9. Feed The Brain</p>
                      <p>
                         Short-term memory, focus and attention, visual learning,
@@ -249,21 +278,32 @@
                         effect on the skin, they appear to be more pronounced
                         among those who workout at the start of the day.
                      </p>
+                     <div class="pagination mt-3" id="pagination">
+                        <li class="disabled">
+                           <a href="shopSportsBra.html" class="dPagination" aria-disabled="true"
+                              >❮ Prev</a
+                           >
+                        </li>
+                        |
+                        <li>
+                           <a href="blogTool.html" class="aPagination">Next ❯</a>
+                        </li>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </section>
 
-  <!-- Footer -->
-  <footer
-  class="text-lg-start text-white mt-5"
-  style="background-color: #141414"
->
-  <div class="container">
-     <div class="row">
-        <div class="col-xs col-sm col-md col-lg-3mb-4 mb-md-0 mt-5">
-           <div class="navbar-brand">
+     <!-- Footer -->
+     <footer
+     class="text-lg-start text-white mt-5"
+     style="background-color: #141414"
+  >
+     <!-- <div class="container"> -->
+     <div class="row" id="footer-row">
+        <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+           <div class="footer-brand">
               <h2>
                  <sub><em>NO</em></sub
                  ><sup><em>LIMIT</em></sup>
@@ -274,74 +314,31 @@
            <p>ALL RIGHTS RESERVED</p>
         </div>
 
-        <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
-           <h5 class="text-uppercase">MEMBERSHIP:</h5>
+        <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
+         <h5 class="text-uppercase">Contact Us :</h5>
 
-           <ul class="list-unstyled mb-0">
-              <li>
-                 <a href="htmlIntroduction.html" id="footerLinks"
-                    >Join Online
-                 </a>
-              </li>
-              <li>
-                 <a href="htmlEditors.html" id="footerLinks"
-                    >Individual
-                 </a>
-              </li>
-              <li>
-                 <a href="htmlBuildingBlocks.html" id="footerLinks"
-                    >Corporate
-                 </a>
-              </li>
-              <li>
-                 <a href="htmlElements.html" id="footerLinks"
-                    >Personal Training
-                 </a>
-              </li>
-              <li>
-                 <a href="htmlIntroduction.html" id="footerLinks"
-                    >FAQs</a
-                 >
-              </li>
-           </ul>
-        </div>
+         <ul class="list-unstyled mb-0">
+            <li>NY, NY</li>
+            <li>Mail: info@nolimit.com</li>
+            <li>
+               <a href="terms.html" id="footerLinks"
+                  >Terms and Conditions
+               </a>
+            </li>
+            <li>
+               <a href="terms.html" id="footerLinks"
+                  >Liability Waiver</a
+               >
+            </li>
+            <li>
+               <a href="privacy.html" id="footerLinks"
+                  >Privacy Policy</a
+               >
+            </li>
+         </ul>
+      </div>
 
-        <div class="col-xs col-sm col-md col-lg-3 mb-4 mb-md-0 mt-5">
-           <h5 class="text-uppercase">Contact Us :</h5>
-
-           <ul class="list-unstyled mb-0">
-              <li>
-                 <a
-                    href="refTagList.html"
-                    class="text-light"
-                    id="footerLinks"
-                    >NY, NY
-                 </a>
-              </li>
-              <li>
-                 <a href="refAttributes.html" id="footerLinks"
-                    >Mail: info@thelimitfit.com
-                 </a>
-              </li>
-              <li>
-                 <a href="refColors.html" id="footerLinks"
-                    >Terms and Conditions
-                 </a>
-              </li>
-              <li>
-                 <a href="refAudioVideo.html" id="footerLinks"
-                    >Liability Waiver</a
-                 >
-              </li>
-              <li>
-                 <a href="refUrlEncode.html" id="footerLinks"
-                    >Privacy Policy</a
-                 >
-              </li>
-           </ul>
-        </div>
-
-        <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
+        <div class="col-xs col-sm col-md col-lg-3 mb-4 mt-5">
            <h5 class="text-uppercase">FIND US ON:</h5>
 
            <a
@@ -369,14 +366,30 @@
            ></a>
         </div>
 
-        <div class="col-xs col-sm col-md col-lg-2 mb-4 mb-md-0 mt-5">
+        <div
+           class="col-xs col-sm col-md col-lg-3 mb-4 mt-5 text-center"
+           id="newsletter"
+        >
            <h5 class="text-uppercase">SUBSCRIBE TO OUR NEWSLETTER:</h5>
-           <button class="subscribe-btn mt-3">SUBSCRIBE</button>
+           <button class="subscribe-btn mt-3 mb-3">SUBSCRIBE</button>
+           <br />
+           <a href="">
+              <img
+                 src="./photos/apple-store-black.png"
+                 alt=""
+                 class="mb-3"
+           /></a>
+           <a href="">
+              <img
+                 src="./photos/google-play-black.png"
+                 alt=""
+                 class="mb-3"
+           /></a>
         </div>
      </div>
-  </div>
-</footer>
-<!-- Footer -->
+  </footer>
+  <!-- footer -->
+
 
       <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -389,5 +402,28 @@
       ></script>
       <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
       <script src="index.js"></script>
+      <script type="text/javascript">
+         (function (I, L, T, i, c, k, s) {
+            if (I.iticks) return;
+            I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
+            var h = T.head || T.documentElement;
+            var e = T.createElement(i);
+            var l = I.location;
+            e.async = true;
+            e.src = (L || c) + '/client/inject-v2.min.js';
+            h.insertBefore(e, h.firstChild);
+            I.iticks.call = function (a, b) {
+               I.iticks.queue.push([a, b]);
+            };
+         })(
+            window,
+            'https://cdn-v1.intelliticks.com/prod/common',
+            document,
+            'script',
+            'https://app.intelliticks.com',
+            '8Y2H6pJ3AbbaTTcsp_c',
+            {}
+         );
+      </script>
    </body>
 </html>

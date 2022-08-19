@@ -1,16 +1,11 @@
-// import * as mdb from 'mdb-ui-kit'; // lib
-let linkEl = document.querySelectorAll('.nav-link');
-console.log(linkEl);
-let navbarEl = document.querySelector('.navbar');
-// console.log(navbarEl);
-window.addEventListener('scroll', function () {
-   let currentScroll = window.pageYOffset;
-   if (currentScroll >= 1100) {
-      navbarEl.classList.add('changeColor');
-      console.log(currentScroll)
-   
-   } else if (currentScroll < 1100) {
-      navbarEl.classList.remove('changeColor');
-  
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+   if (window.scrollY >= 100) {
+      nav.classList.add('active-nav');
+   } else {
+      nav.classList.remove('active-nav');
    }
-});
+})
+
+
