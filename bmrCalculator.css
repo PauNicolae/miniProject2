@@ -90,31 +90,14 @@ hr{
   }
   
 
-  section{
-    
-}
+
 
 span{
     color: red;
 }
 
-.wrapper{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 15px;
-    background-color: #f1f1f1;
-    border: 1px black solid;
-    border-radius: 5px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px - 10px;
-}
 
-input{
-    outline: none;
-    border: none;
-    padding: 5px;
-}
+
 
 button{
     color: white;
@@ -124,26 +107,10 @@ button{
     background-color: #D71619;
     margin-top: 10%;
     cursor: pointer;
+    width: 100%;
 }
 
-/* div.card{
-position: absolute;
-width: 20rem;
-background-color: #f1f1f1;
-}
 
-div.box{
-  padding-top: 10rem;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  align-content: center;
-} */
-
-/* form{
-  
-    
-} */
 
 
 .bmr-calculator{
