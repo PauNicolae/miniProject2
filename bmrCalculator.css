@@ -77,6 +77,30 @@
 }
 
 
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
 hr{
     width: 13.9%;
     margin: 0 auto!important;
