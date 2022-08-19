@@ -161,9 +161,12 @@ div.box {
    align-content: center;
 }
 
-input #height,
+input #height{
+  background-color: white;
+}
+
 input #weight{
-  color: white;
+  background-color: white;
 }
 
 
