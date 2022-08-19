@@ -60,7 +60,7 @@ const displayData = (exercises) => {
                         alt=""
                   /></a>
                   <p class="product-title mt-3">${item.name}</p>
-                  <p><strong>Price $${item.price}</strong></p>
+                  <p><strong>Price PHP ${item.price}</strong></p>
                </div>
                `;
   });
