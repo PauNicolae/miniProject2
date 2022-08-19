@@ -49,6 +49,9 @@
   text-decoration: none;
 }
 
+.changeColor{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
 
 .nav-item{
   color: white;
@@ -75,6 +78,26 @@
 .navbar-toggler{
   color:white;
 }
+
+
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color: red;
+
+}
+
+
+.dropdown-menu:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
 
 
 hr{

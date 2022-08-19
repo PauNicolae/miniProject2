@@ -49,9 +49,6 @@
   text-decoration: none;
 }
 
-.changeColor{
-  background-color:  rgba(0, 0, 0, 0.5);
-}
 
 .nav-item{
   color: white;
@@ -80,12 +77,36 @@
 }
 
 
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+a.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color:  rgba(0, 0, 0, 0.5);
+
+}
+
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+
 hr{
-    width: 10%;
+    width: 13.9%;
     margin: 0 auto!important;
     display: block;
     height: 12px;
-    
 }
 
 
@@ -148,9 +169,6 @@ padding-right: 12rem;
     
   }
 
-  .about-section{
-    /* color: #6A7C92; */
-  }
 
   #h2-trainers{
     margin-bottom: 10px;

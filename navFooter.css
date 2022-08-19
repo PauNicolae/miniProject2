@@ -80,8 +80,28 @@
 }
 
 
+.dropdown-menu{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+a.dropdown-item{
+  background-color: transparent;
+
+}
+
+
+.dropdown-menu:hover{
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover{
+  color:#D71619;
+}
+
+
+
 hr{
-    width: 10%;
+    width: 13.9%;
     margin: 0 auto!important;
     display: block;
     height: 12px;
@@ -91,16 +111,6 @@ hr{
 .title{
     font-family: 'Roboto Slab', serif;
   }
-  
-  .subtitle{
-  }
-
-
-.box{
- max-width: 70%;
- margin: auto;
-}
-
 
 
 
