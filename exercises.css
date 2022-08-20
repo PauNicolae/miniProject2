@@ -228,6 +228,8 @@ padding-right: 12rem;
 
 @media screen and (max-width: 355px){
 
+
+
 .title{
   display: flex;
   justify-content: center;
@@ -241,7 +243,7 @@ padding-right: 12rem;
   
   #magnifyingGlass{
    position: absolute;
-   right: 100px;
+   right: 40px;
    top: 190px;
   }
 }
