@@ -173,8 +173,16 @@ div.pagination {
 
 
 /* media query */
+@media screen and (max-width: 480px){
+   #cart-price{
+     margin-left: 15rem;
+     margin-bottom: 5rem;
+   }
+}
+
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  
+
 
    
 }
