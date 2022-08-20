@@ -181,8 +181,19 @@ div.pagination {
 }
 
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 575px){
+   #cart-price{
+      margin-left: 15rem;
+      margin-bottom: 5rem;
+    }
 
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+   #cart-price{
+      margin-left: 15rem;
+      margin-bottom: 5rem;
+    }
 
    
 }
