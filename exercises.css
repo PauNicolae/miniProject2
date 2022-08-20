@@ -223,3 +223,114 @@ padding-right: 12rem;
 .subscribe-btn:hover{
   filter: brightness(80%);
 }
+
+
+
+@media screen and (max-width: 355px){
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+
+  #searchBox{
+    position: relative;
+    width: auto;
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 100px;
+   top: 190px;
+  }
+}
+
+
+@media screen and (min-width: 356px) and (max-width: 418px){
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchBox{
+    position: relative;
+    width: auto;
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 60px;
+   top: 190px;
+  }
+}
+
+
+@media screen and (min-width: 419px) and (max-width: 575px){
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchBox{
+    position: relative;
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 70px;
+   top: 195px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 497px){
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchBox{
+    position: relative;
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 100px;
+   top: 200px;
+  }
+
+}
+
+@media screen and (min-width: 498px) and (max-width: 575px){
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchBox{
+    position: relative;
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 100px;
+   top: 200px;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #searchBox{
+    position: relative;
+    width:50%
+  }
+  
+  #magnifyingGlass{
+   position: absolute;
+   right: 60px;
+   top: 160px;
+  }
+
+  
+}
