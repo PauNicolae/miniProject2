@@ -266,7 +266,7 @@ label.form-check-label{
     }
   
   
-  @media screen and (min-width: 419px) and (max-width: 575px){
+  @media screen and (min-width: 419px) and (max-width: 480px){
     label.form-check-label{
       position: absolute;
       right:200px
@@ -287,12 +287,19 @@ label.form-check-label{
     }
     }
   
-    @media screen and (min-width: 576px) and (max-width: 663px) {
+    @media screen and (min-width: 576px) and (max-width: 626px) {
       label.form-check-label{
         position: absolute;
-        right:360px
+        right:340px
       }
       }
+
+      @media screen and (min-width: 627px) and (max-width: 663px) {
+        label.form-check-label{
+          position: absolute;
+          right:340px
+        }
+        }
 
       @media screen and (min-width: 664px) and (max-width: 686px) {
         label.form-check-label{
