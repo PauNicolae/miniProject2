@@ -72,7 +72,7 @@ const shippingfee = function (el) {
   let standard_fee = 25;
 
   if (selected == "PH") {
-    standard_fee = 10;
+    standard_fee = 20;
   }
   return standard_fee;
 };
@@ -149,7 +149,8 @@ const placeOrder = function () {
     from_name: "No Limit Fitness",
     message: `${placeorder}`,
   };
-
+  // call send function from emailjs 
+  // -> show custom order info through alert box, clear localstorage, redirect to homepage
   emailjs.send("service_w09xyou", "template_9oqwaen", templateParams).then(
     function (response) {
       console.log("SUCCESS!", response.status, response.text);

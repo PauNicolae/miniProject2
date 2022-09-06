@@ -29,13 +29,13 @@ function incrementValue(e) {
     parent.find("input[name=" + fieldName + "]").val(0);
   }
 }
-
+// API 
 const url = "https://62f7c3d7ab9f1f8e8902fb45.mockapi.io/api/v1/exercise_items";
 const subContainer = document.querySelector(".subContainer");
 
 let data = [];
 //user input should show data
-
+//API fetching
 const fetchData = async () => {
   const response = await fetch(url);
   data = await response.json();
@@ -48,7 +48,7 @@ const displayData = (exercises) => {
   exercises.map((item) => {
     // console.log(item);
 
-    // new inserted code
+    
 
     htmlString += `
             <div class="col-sm text-center">

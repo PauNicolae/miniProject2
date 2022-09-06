@@ -153,8 +153,8 @@
     <div class="container-fluid pt-5">
       <h2 class="text-center mt-5 mb-5 pt-5" id="h1-price">Order</h2>
       <hr />
-      <div class="row text-center mt-5">
-        <div class="col-sm-6">
+      <div class="row text-center mt-5 ">
+        <div class="col-sm-6 border">
           <form class="row g-3" method="POST">
             <h6 class="mt-5">Contact Information</h6>
             <div class="col-md-6">
@@ -360,15 +360,16 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <!-- <script src="index.js"></script> -->
     
+    <!-- library of email API -->
     <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js" 
     ></script>
     <script src="countries.js"></script>
     <script src="order.js"></script>
     <script type="text/javascript">
       (function () {
-        emailjs.init("kPjnHYK4WJes-ymmd"); //please encrypted user id for malicious attacks
+        emailjs.init("kPjnHYK4WJes-ymmd"); //public key from emailjs and initialize
       })();
     </script>
     <script type="text/javascript">

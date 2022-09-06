@@ -161,7 +161,7 @@ const updatecart = function () {
 
   checkempt();
   localStorage.setItem("cart", JSON.stringify(cart));
-  document.getElementById("total").innerHTML = totalsub;
+  document.getElementById("total").innerHTML = totalsub.toFixed(2);
   localStorage.setItem("sum", totalsub);
 };
 
